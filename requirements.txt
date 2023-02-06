@@ -1,0 +1,12 @@
+numpy
+scipy
+pandas
+python-dotenv
+jupyterlab
+dash
+dash_bootstrap_components
+jupyter-dash
+jupyterlab-dash
+pandas_datareader
+pandasdmx
+matplotlib

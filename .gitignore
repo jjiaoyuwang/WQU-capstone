@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .devcontainer
+prototypes/
 .Python
 build/
 develop-eggs/
