@@ -12,3 +12,4 @@ pandasdmx
 matplotlib
 statsmodels
 sklearn
+scikit-learn
