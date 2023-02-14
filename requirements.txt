@@ -10,3 +10,5 @@ jupyterlab-dash
 pandas_datareader
 pandasdmx
 matplotlib
+statsmodels
+sklearn
