@@ -1,2 +1,2 @@
 # WQU-capstone
-Code and Jupyter notebooks for analysis of Hong Kong listed equities
+WorldQuant University Master's in Financial Engineering capstone project. Code and Jupyter notebooks for analysis of Hong Kong listed equities
