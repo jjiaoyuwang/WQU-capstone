@@ -13,3 +13,4 @@ matplotlib
 statsmodels
 sklearn
 scikit-learn
+yfinance
