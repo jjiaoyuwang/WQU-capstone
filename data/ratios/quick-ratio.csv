@@ -1,0 +1,482 @@
+Ticker,Name,Sector,Industry,Industry Group,Market Cap,Last Reported Fiscal Year,Quick-Ratio,Quick-Ratio FQ-1,Quick-Ratio FQ-2,Quick-Ratio FQ-3,Quick-Ratio FQ-4,Quick-Ratio FQ-5,Quick-Ratio FQ-6,Quick-Ratio FQ-7,Quick-Ratio FQ-8,Quick-Ratio FQ-9,Quick-Ratio FQ-10,Quick-Ratio FQ-11,Quick-Ratio FQ-12
+1989,Pine Care Group Limited,Healthcare,Healthcare Providers & Services,Healthcare Equipment & Services,103.5 M,2023,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.4x,0.4x,0.1x,0.1x,0.1x,0.1x,0.5x
+199,ITC Properties Group Limited,Real Estate,Real Estate Management & Development,Real Estate,122.1 M,2023,0.2x,0.2x,0.2x,0.2x,0.5x,0.5x,0.1x,0.1x,0.2x,0.2x,0.3x,0.3x,0.4x
+163,Emperor International Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,313.9 M,2023,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.4x,0.4x,0.5x,0.5x,0.5x,0.5x,0.9x
+2322,Hong Kong ChaoShang Group Limited,Industrials,Trading Companies & Distributors,Capital Goods,383.2 M,2023,7.2x,7.2x,9.4x,9.4x,7.2x,7.2x,6.1x,6.1x,3.7x,3.7x,6.9x,6.9x,9.1x
+277,Tern Properties Company Limited,Real Estate,Real Estate Management & Development,Real Estate,135.2 M,2023,6.2x,6.2x,8.8x,8.8x,3.9x,3.9x,3.4x,3.4x,4.2x,4.2x,0.9x,0.9x,2.2x
+1271,Grand Ming Group Holdings Limited,Industrials,Construction & Engineering,Capital Goods,1.082 B,2023,1.1x,1.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.2x,0.2x,0.1x,0.1x,0.4x
+2033,Time Watch Investments Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,108.8 M,2023,5.2x,5.2x,5.0x,5.0x,4.3x,4.3x,4.1x,4.1x,4.1x,4.1x,4.5x,4.5x,3.4x
+985,CST Group Limited,Financials,Capital Markets,Diversified Financials,107.8 M,2023,0.3x,0.3x,0.9x,0.9x,3.3x,3.3x,6.2x,6.2x,3.6x,3.6x,4.0x,4.0x,4.2x
+367,Chuang's Consortium International Limited,Real Estate,Real Estate Management & Development,Real Estate,138.5 M,2023,2.0x,2.0x,2.1x,2.1x,1.1x,1.1x,0.8x,0.8x,1.5x,1.5x,1.1x,1.1x,1.4x
+18,Oriental Enterprise Holdings Limited,Communication Services,Media,Media,183.3 M,2023,7.2x,7.2x,5.7x,5.7x,5.5x,5.5x,9.7x,9.7x,6.0x,6.0x,7.2x,7.2x,6.9x
+179,Johnson Electric Holdings Limited,Consumer Discretionary,Auto Components,Automobiles & Components,1.056 B,2023,0.9x,0.9x,1.0x,1.0x,1.0x,1.0x,1.2x,1.2x,1.3x,1.3x,1.2x,1.2x,1.0x
+191,Lai Sun Garment (International) Limited,Real Estate,Real Estate Management & Development,Real Estate,172.2 M,2023,0.4x,0.4x,0.5x,0.5x,0.6x,0.6x,0.8x,0.8x,0.5x,0.5x,0.3x,0.3x,0.4x
+374,Four Seas Mercantile Holdings Limited,Consumer Staples,Food Products,"Food, Beverage & Tobacco",130.2 M,2023,0.8x,0.8x,0.9x,0.9x,0.8x,0.8x,0.9x,0.9x,0.9x,0.9x,1.0x,1.0x,1.0x
+25,Chevalier International Holdings Limited,Industrials,Industrial Conglomerates,Capital Goods,271.2 M,2023,0.6x,0.6x,0.7x,0.7x,0.9x,0.9x,0.8x,0.8x,0.9x,0.9x,1.0x,1.0x,1.0x
+159,Brockman Mining Limited,Materials,Metals & Mining,Materials,189.2 M,2023,0.4x,0.4x,1.8x,1.8x,4.4x,4.4x,13.4x,13.4x,10.8x,10.8x,15.4x,15.4x,1.2x
+650,Productive Technologies Company Limited,Energy,"Oil, Gas & Consumable Fuels",Energy,900.4 M,2023,2.6x,2.6x,10.1x,10.1x,6.5x,6.5x,3.2x,3.2x,4.8x,4.8x,4.1x,4.1x,4.6x
+64,Get Nice Holdings Limited,Financials,Capital Markets,Diversified Financials,184.6 M,2023,7.2x,7.2x,5.6x,5.6x,4.3x,4.3x,5.6x,5.6x,4.1x,4.1x,7.5x,7.5x,3.9x
+931,China LNG Group Limited,Energy,"Oil, Gas & Consumable Fuels",Energy,269.6 M,2023,0.2x,0.2x,0.2x,0.2x,0.1x,0.1x,0.3x,0.3x,0.1x,0.1x,0.3x,0.3x,0.3x
+53,Guoco Group Limited,Industrials,Industrial Conglomerates,Capital Goods,2.85 B,2023,1.5x,1.5x,2.3x,2.3x,3.7x,3.7x,3.0x,3.0x,3.8x,3.8x,3.3x,3.3x,3.4x
+1221,Sino Hotels (Holdings) Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,327.5 M,2023,33.9x,33.9x,57.2x,57.2x,57.1x,57.1x,88.1x,88.1x,65.9x,65.9x,33.6x,33.6x,15.3x
+2368,Eagle Nice (International) Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,295.1 M,2023,0.9x,0.9x,0.7x,0.7x,1.0x,1.0x,0.9x,0.9x,1.1x,1.1x,0.6x,0.6x,0.8x
+8365,Hatcher Group Limited,Financials,Capital Markets,Diversified Financials,140.2 M,2023,-,0.8x,NA,0.5x,NA,0.8x,NA,1.4x,NA,1.5x,NA,2.8x,NA
+202,EverChina Int'l Holdings Company Limited,Real Estate,Real Estate Management & Development,Real Estate,161.7 M,2023,1.0x,1.0x,1.0x,1.0x,1.0x,1.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x
+147,International Business Settlement Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,181.2 M,2023,0.2x,0.2x,0.2x,0.2x,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.4x,0.4x,0.2x
+1050,Karrie International Holdings Limited,Information Technology,"Electronic Equipment, Instruments & Components",Technology Hardware & Equipment,242 M,2023,0.6x,0.6x,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.4x,0.4x,0.6x,0.6x,0.6x
+474,Aceso Life Science Group Limited,Financials,Consumer Finance,Diversified Financials,167.4 M,2023,0.6x,0.6x,0.6x,0.6x,2.2x,2.2x,1.3x,1.3x,1.3x,1.3x,1.6x,1.6x,2.3x
+26,"China Motor Bus Company, Limited",Real Estate,Real Estate Management & Development,Real Estate,441.5 M,2023,5.2x,5.2x,17.7x,17.7x,5.0x,5.0x,23.1x,23.1x,2.7x,2.7x,30.2x,30.2x,14.8x
+1709,DL Holdings Group Limited,Financials,Capital Markets,Diversified Financials,495.2 M,2023,1.4x,1.4x,1.6x,1.6x,1.2x,1.2x,2.6x,2.6x,2.6x,2.6x,2.1x,2.1x,2.3x
+1428,Bright Smart Securities & Commodities Group Limited,Financials,Capital Markets,Diversified Financials,296.2 M,2023,1.4x,1.4x,1.3x,1.3x,1.2x,1.2x,1.1x,1.1x,1.1x,1.1x,1.4x,1.4x,1.6x
+900,AEON Credit Service (Asia) Company Limited,Financials,Consumer Finance,Diversified Financials,270.5 M,2023,6.1x,7.0x,10.3x,9.5x,7.7x,5.4x,5.1x,5.0x,4.4x,6.4x,4.9x,4.2x,3.8x
+335,Upbest Group Limited,Financials,Consumer Finance,Diversified Financials,205 M,2023,1.0x,1.0x,1.0x,1.0x,1.1x,1.1x,1.0x,1.0x,1.0x,1.0x,0.8x,0.8x,1.3x
+989,Hua Yin International Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,385.4 M,2023,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.0x,0.0x,0.0x,0.0x,0.0x
+105,Associated International Hotels Limited,Real Estate,Real Estate Management & Development,Real Estate,429.7 M,2023,2.8x,2.8x,3.3x,3.3x,2.6x,2.6x,1.4x,1.4x,2.2x,2.2x,2.4x,2.4x,1.7x
+247,Tsim Sha Tsui Properties Limited,Real Estate,Real Estate Management & Development,Real Estate,5.729 B,2023,0.3x,0.3x,1.0x,1.0x,1.7x,1.7x,1.6x,1.6x,0.1x,0.1x,0.7x,0.7x,1.0x
+113,Dickson Concepts (International) Limited,Consumer Discretionary,Specialty Retail,Retailing,201.9 M,2023,1.8x,1.8x,1.8x,1.8x,2.0x,2.0x,2.2x,2.2x,2.0x,2.0x,1.9x,1.9x,1.7x
+1104,APAC Resources Limited,Industrials,Trading Companies & Distributors,Capital Goods,177.5 M,2023,4.0x,4.0x,4.4x,4.4x,5.0x,5.0x,16.7x,16.7x,23.2x,23.2x,13.4x,13.4x,18.9x
+677,Golden Resources Development International Limited,Consumer Staples,Food & Staples Retailing,Food & Staples Retailing,278.9 M,2023,1.7x,1.7x,2.0x,2.0x,1.8x,1.8x,2.2x,2.2x,2.3x,2.3x,1.9x,1.9x,2.0x
+266,Tian Teck Land Limited,Real Estate,Real Estate Management & Development,Real Estate,238.9 M,2023,2.9x,2.9x,3.4x,3.4x,2.7x,2.7x,1.6x,1.6x,2.3x,2.3x,2.6x,2.6x,1.7x
+1373,International Housewares Retail Company Limited,Consumer Discretionary,Specialty Retail,Retailing,258.6 M,2023,0.9x,0.9x,0.8x,0.8x,0.9x,0.9x,0.9x,0.9x,0.9x,0.9x,0.8x,0.8x,0.7x
+391,Mei Ah Entertainment Group Limited,Communication Services,Entertainment,Media,200 M,2023,0.2x,0.2x,0.3x,0.3x,0.2x,0.2x,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.4x
+711,Asia Allied Infrastructure Holdings Limited,Industrials,Construction & Engineering,Capital Goods,118.2 M,2023,1.1x,1.1x,1.2x,1.2x,1.3x,1.3x,0.9x,0.9x,1.3x,1.3x,1.3x,1.3x,1.2x
+992,Lenovo Group Limited,Information Technology,"Technology Hardware, Storage & Peripherals",Technology Hardware & Equipment,13.581 B,2023,0.5x,0.5x,0.5x,0.5x,0.5x,0.4x,0.4x,0.4x,0.5x,0.4x,0.5x,0.4x,0.5x
+57,Chen Hsong Holdings Limited,Industrials,Machinery,Capital Goods,147 M,2023,2.2x,2.2x,1.8x,1.8x,1.9x,1.9x,2.0x,2.0x,2.3x,2.3x,2.8x,2.8x,2.5x
+160,"Hon Kwok Land Investment Company, Limited",Real Estate,Real Estate Management & Development,Real Estate,194.6 M,2023,0.6x,0.6x,0.5x,0.5x,0.5x,0.5x,0.8x,0.8x,0.6x,0.6x,0.7x,0.7x,1.1x
+259,Yeebo (International Holdings) Limited,Information Technology,"Electronic Equipment, Instruments & Components",Technology Hardware & Equipment,362.6 M,2023,1.7x,1.7x,1.0x,1.0x,0.9x,0.9x,1.1x,1.1x,1.2x,1.2x,1.6x,1.6x,1.0x
+186,Nimble Holdings Company Limited,Consumer Discretionary,Distributors,Retailing,188.9 M,2023,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.1x,0.1x,0.7x,0.7x,3.5x,3.5x,5.0x
+896,Hanison Construction Holdings Limited,Industrials,Construction & Engineering,Capital Goods,158.4 M,2023,0.9x,0.9x,0.7x,0.7x,0.3x,0.3x,0.3x,0.3x,0.2x,0.2x,0.2x,0.2x,0.4x
+938,Man Sang International Limited,Real Estate,Real Estate Management & Development,Real Estate,137.7 M,2023,0.0x,0.0x,0.2x,0.2x,0.0x,0.0x,0.5x,0.5x,0.6x,0.6x,2.7x,2.7x,0.1x
+29,Dynamic Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,301.9 M,2023,0.8x,0.8x,0.9x,0.9x,1.5x,1.5x,1.4x,1.4x,1.4x,1.4x,1.0x,1.0x,0.4x
+411,Lam Soon (Hong Kong) Limited,Consumer Staples,Food Products,"Food, Beverage & Tobacco",294.5 M,2023,2.4x,2.4x,2.2x,2.2x,2.5x,2.5x,2.4x,2.4x,2.5x,2.5x,2.6x,2.6x,2.2x
+129,Asia Standard International Group Limited,Real Estate,Real Estate Management & Development,Real Estate,107.6 M,2023,0.8x,0.8x,1.2x,1.2x,1.6x,1.6x,2.0x,2.0x,2.1x,2.1x,2.2x,2.2x,3.7x
+213,National Electronics Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,111.3 M,2023,0.6x,0.6x,0.7x,0.7x,0.8x,0.8x,1.1x,1.1x,1.1x,1.1x,0.8x,0.8x,1.2x
+1140,Wealthking Investments Limited,Financials,Capital Markets,Diversified Financials,495.9 M,2023,3.5x,3.5x,1.1x,1.1x,6.0x,6.0x,3.3x,3.3x,5.5x,5.5x,3.2x,3.2x,1.8x
+1729,Time Interconnect Technology Limited,Industrials,Electrical Equipment,Capital Goods,421.4 M,2023,0.6x,0.6x,0.7x,0.7x,0.7x,0.7x,0.8x,0.8x,0.7x,0.7x,0.5x,0.5x,1.3x
+6819,IntelliCentrics Global Holdings Ltd.,Healthcare,Health Care Technology,Healthcare Equipment & Services,288.8 M,2023,0.5x,0.5x,0.4x,0.4x,0.7x,0.7x,1.4x,1.4x,2.0x,2.0x,NA,NA,NA
+1082,Bradaverse Education (Int'l) Investments Group Limited,Consumer Discretionary,Diversified Consumer Services,Consumer Services,129.2 M,2023,2.6x,2.6x,5.1x,5.1x,4.8x,4.8x,3.5x,3.5x,3.9x,3.9x,1.4x,1.4x,1.1x
+1942,MOG Holdings Limited,Consumer Discretionary,Specialty Retail,Retailing,1.543 B,2023,2.3x,2.3x,1.4x,1.4x,3.8x,3.8x,3.7x,3.7x,2.5x,2.5x,1.0x,1.0x,1.0x
+33,International Genius Company,Consumer Discretionary,Distributors,Retailing,134.8 M,2023,3.6x,3.6x,2.3x,2.3x,1.1x,1.1x,NA,NA,NA,NA,0.3x,0.3x,0.2x
+825,New World Department Store China Limited,Consumer Discretionary,Multiline Retail,Retailing,193.3 M,2023,0.3x,0.3x,0.3x,0.3x,0.4x,0.4x,0.4x,0.4x,0.4x,0.4x,0.4x,0.4x,0.4x
+6889,"DYNAM JAPAN HOLDINGS Co., Ltd.",Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,479.5 M,2023,1.2x,1.2x,1.2x,1.2x,1.1x,1.1x,1.3x,1.3x,1.1x,1.1x,1.0x,1.0x,1.1x
+1499,OKG Technology Holdings Limited,Industrials,Construction & Engineering,Capital Goods,242.9 M,2023,0.1x,0.1x,0.3x,0.3x,1.0x,1.0x,1.0x,1.0x,1.4x,1.4x,1.5x,1.5x,1.7x
+1341,Hao Tian International Construction Investment Group Limited,Industrials,Trading Companies & Distributors,Capital Goods,231.2 M,2023,1.3x,1.3x,1.4x,1.4x,1.4x,1.4x,1.3x,1.3x,1.6x,1.6x,1.8x,1.8x,1.7x
+1023,Sitoy Group Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,107.6 M,2023,2.0x,2.0x,1.7x,1.7x,1.2x,1.2x,1.4x,1.4x,1.5x,1.5x,1.6x,1.6x,1.5x
+1468,Kingkey Financial International (Holdings) Limited,Financials,Capital Markets,Diversified Financials,1.554 B,2023,0.6x,0.6x,1.0x,1.0x,1.3x,1.3x,0.8x,0.8x,1.4x,1.4x,1.8x,1.8x,1.0x
+1726,HKE Holdings Limited,Industrials,Construction & Engineering,Capital Goods,179.2 M,2023,3.7x,3.7x,5.6x,5.6x,7.2x,7.2x,12.5x,12.5x,13.2x,13.2x,15.5x,15.5x,18.9x
+279,Arta TechFin Corporation Limited,Financials,Capital Markets,Diversified Financials,275 M,2023,1.4x,1.4x,1.4x,1.4x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x
+1243,Wang On Properties Limited,Real Estate,Real Estate Management & Development,Real Estate,110.4 M,2023,0.6x,0.6x,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.5x,0.5x,0.6x,0.6x,0.4x
+2153,"Tat Hong Equipment Service Co., Ltd.",Industrials,Construction & Engineering,Capital Goods,196.2 M,2023,1.3x,1.3x,1.4x,1.4x,1.5x,1.5x,2.4x,2.4x,NA,1.4x,NA,NA,NA
+2221,New Concepts Holdings Limited,Industrials,Construction & Engineering,Capital Goods,120.7 M,2023,0.9x,0.9x,0.7x,0.7x,0.7x,0.7x,0.3x,0.3x,0.5x,0.5x,0.4x,0.4x,0.7x
+1469,Get Nice Financial Group Limited,Financials,Capital Markets,Diversified Financials,207 M,2023,10.1x,10.1x,8.5x,8.5x,5.2x,5.2x,6.1x,6.1x,4.1x,4.1x,8.8x,8.8x,3.8x
+1854,China Wantian Holdings Limited,Consumer Staples,Food & Staples Retailing,Food & Staples Retailing,108.4 M,2023,3.0x,3.0x,2.4x,2.4x,1.9x,1.9x,1.3x,1.3x,1.2x,1.2x,1.3x,1.3x,1.6x
+2708,IBO Technology Company Limited,Information Technology,"Electronic Equipment, Instruments & Components",Technology Hardware & Equipment,119 M,2023,1.1x,1.1x,1.4x,1.4x,1.7x,1.7x,1.7x,1.7x,1.8x,1.8x,1.9x,1.9x,1.8x
+1125,Lai Fung Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,111.8 M,2023,0.5x,0.5x,0.4x,0.4x,0.3x,0.3x,0.8x,0.8x,0.4x,0.4x,0.2x,0.2x,0.3x
+131,Cheuk Nang (Holdings) Limited,Real Estate,Real Estate Management & Development,Real Estate,174.6 M,2023,0.2x,0.2x,0.3x,0.3x,0.7x,0.7x,0.7x,0.7x,0.3x,0.3x,0.6x,0.6x,0.3x
+224,Pioneer Global Group Limited,Real Estate,Real Estate Management & Development,Real Estate,148.5 M,2023,0.9x,0.9x,4.0x,4.0x,0.2x,0.2x,0.1x,0.1x,0.5x,0.5x,0.4x,0.4x,0.3x
+398,Oriental Watch Holdings Limited,Consumer Discretionary,Specialty Retail,Retailing,265.7 M,2023,2.2x,2.2x,3.0x,3.0x,2.4x,2.4x,2.9x,2.9x,3.9x,3.9x,4.9x,4.9x,3.7x
+306,Kwoon Chung Bus Holdings Limited,Industrials,Road & Rail,Transportation,139.1 M,2023,0.8x,0.8x,0.9x,0.9x,1.0x,1.0x,0.3x,0.3x,0.4x,0.4x,0.3x,0.3x,0.3x
+149,China Agri-Products Exchange Limited,Real Estate,Real Estate Management & Development,Real Estate,105.2 M,2023,0.3x,0.3x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,NA,NA,NA
+237,"Safety Godown Company, Limited",Real Estate,Real Estate Management & Development,Real Estate,117.6 M,2023,3.7x,3.7x,9.2x,9.2x,10.7x,10.7x,13.6x,13.6x,13.5x,13.5x,7.9x,7.9x,6.3x
+1660,Zhaobangji Properties Holdings Limited,Industrials,Trading Companies & Distributors,Capital Goods,236.8 M,2023,3.4x,3.4x,4.2x,4.2x,3.3x,3.3x,2.6x,2.6x,2.6x,2.6x,1.0x,1.0x,0.8x
+303,Vtech Holdings Limited,Information Technology,Communications Equipment,Technology Hardware & Equipment,1.503 B,2023,0.7x,0.7x,0.8x,0.8x,0.7x,0.7x,1.2x,1.2x,1.0x,1.0x,1.1x,1.1x,0.8x
+2360,Best Mart 360 Holdings Limited,Consumer Staples,Food & Staples Retailing,Food & Staples Retailing,284.1 M,2023,0.6x,0.6x,0.5x,0.5x,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.9x,0.9x,0.9x
+1283,Accel Group Holdings Limited,Industrials,Construction & Engineering,Capital Goods,129.4 M,2023,4.0x,4.0x,5.2x,5.2x,3.1x,3.1x,3.4x,3.4x,3.3x,3.3x,4.2x,4.2x,2.6x
+2161,JBM (Healthcare) Limited,Healthcare,Pharmaceuticals,"Pharmaceuticals, Biotechnology & Life Sciences",111.1 M,2023,1.6x,1.6x,1.6x,1.6x,1.7x,1.7x,1.7x,1.7x,NA,NA,NA,NA,NA
+9913,Chi Kan Holdings Limited,Industrials,Construction & Engineering,Capital Goods,270.1 M,2023,3.2x,3.2x,3.2x,3.2x,3.9x,3.9x,4.0x,4.0x,5.5x,5.5x,4.2x,4.2x,NA
+1082,Bradaverse Education (Int'l) Investments Group Limited,Consumer Discretionary,Diversified Consumer Services,Consumer Services,129.2 M,2023,2.6x,2.6x,5.1x,5.1x,4.8x,4.8x,3.5x,3.5x,3.9x,3.9x,1.4x,1.4x,1.1x
+1387,China Dili Group,Real Estate,Real Estate Management & Development,Real Estate,748 M,2022,1.9x,1.9x,1.8x,1.8x,0.9x,0.9x,0.6x,0.6x,0.7x,0.7x,0.5x,0.5x,1.4x
+1188,Hybrid Kinetic Group Limited,Consumer Discretionary,Automobiles,Automobiles & Components,103.7 M,2022,0.0x,0.0x,0.7x,0.7x,0.2x,0.2x,0.7x,0.7x,0.3x,0.3x,0.9x,0.9x,0.2x
+245,China Vered Financial Holding Corporation Limited,Financials,Capital Markets,Diversified Financials,252.1 M,2022,3.6x,3.6x,3.4x,3.4x,2.5x,2.5x,2.3x,2.3x,2.0x,2.0x,4.6x,4.6x,4.5x
+416,"Bank of Jinzhou Co., Ltd.",Financials,Banks,Banks,2.458 B,2022,0.0x,0.0x,0.0x,0.0x,0.1x,0.1x,0.0x,0.0x,0.1x,0.1x,0.1x,0.1x,0.0x
+6188,"Beijing Digital Telecom Co., Ltd.",Consumer Discretionary,Specialty Retail,Retailing,357.4 M,2022,0.6x,0.6x,0.8x,0.8x,0.5x,0.5x,0.7x,0.7x,0.6x,0.6x,0.6x,0.6x,0.6x
+7841,HK Acquisition Corporation,Financials,Capital Markets,Diversified Financials,141.5 M,2022,-,NA,NA,0.0x,NA,NA,NA,NA,NA,NA,NA,NA,NA
+408,Yip's Chemical Holdings Limited,Materials,Chemicals,Materials,273.7 M,2022,0.7x,0.7x,1.0x,1.0x,1.2x,1.2x,1.0x,1.0x,1.3x,1.3x,1.4x,1.4x,1.3x
+258,Tomson Group Limited,Real Estate,Real Estate Management & Development,Real Estate,421.8 M,2022,0.8x,0.8x,0.9x,0.9x,0.8x,0.8x,0.7x,0.7x,0.7x,0.7x,0.7x,0.7x,0.7x
+733,Hopefluent Group Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,178.6 M,2022,0.5x,0.5x,1.2x,1.2x,2.5x,2.5x,2.0x,2.0x,3.0x,3.0x,2.2x,2.2x,1.9x
+10,Hang Lung Group Limited,Real Estate,Real Estate Management & Development,Real Estate,2.39 B,2022,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.2x,0.2x,0.3x,0.3x,0.1x,0.1x,0.1x
+51,Harbour Centre Development Limited,Real Estate,Real Estate Management & Development,Real Estate,666.6 M,2022,0.3x,0.3x,0.3x,0.3x,0.4x,0.4x,0.3x,0.3x,0.2x,0.2x,0.1x,0.1x,0.2x
+256,Citychamp Watch & Jewellery Group Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,637.6 M,2022,10.8x,10.8x,9.7x,9.7x,6.1x,6.1x,6.5x,6.5x,5.3x,5.3x,4.9x,4.9x,5.7x
+693,Tan Chong International Limited,Consumer Discretionary,Distributors,Retailing,436 M,2022,0.9x,0.9x,1.0x,1.0x,1.3x,1.3x,1.3x,1.3x,1.0x,1.0x,1.0x,1.0x,1.3x
+2038,FIH Mobile Limited,Information Technology,"Electronic Equipment, Instruments & Components",Technology Hardware & Equipment,877.9 M,2022,0.9x,0.9x,0.9x,0.9x,1.0x,1.0x,1.0x,1.0x,1.0x,1.0x,0.9x,0.9x,0.9x
+355,Century City International Holdings Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,118.2 M,2022,0.5x,0.5x,0.5x,0.5x,0.3x,0.3x,0.2x,0.2x,0.6x,0.6x,0.8x,0.8x,0.7x
+3639,Yida China Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,113.6 M,2022,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.1x,0.1x,0.1x
+232,Continental Aerospace Technologies Holding Limited,Industrials,Aerospace & Defense,Capital Goods,115 M,2022,2.2x,2.2x,1.9x,1.9x,2.0x,2.0x,1.7x,1.7x,1.9x,1.9x,2.1x,2.1x,2.1x
+1393,Hidili Industry International Development Limited,Energy,"Oil, Gas & Consumable Fuels",Energy,119.9 M,2022,0.1x,0.1x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x
+3833,"Xinjiang Xinxin Mining Industry Co., Ltd.",Materials,Metals & Mining,Materials,363.2 M,2022,0.7x,0.7x,0.4x,0.4x,0.4x,0.4x,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.2x
+505,Xingye Alloy Materials Group Limited,Industrials,Electrical Equipment,Capital Goods,113.8 M,2022,0.5x,0.5x,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.5x,0.5x,0.4x,0.4x,0.4x
+993,Huarong International Financial Holdings Limited,Financials,Capital Markets,Diversified Financials,105.4 M,2022,1.7x,1.7x,1.4x,1.4x,1.1x,1.1x,0.9x,0.9x,0.8x,0.8x,1.2x,1.2x,0.9x
+1141,CMBC Capital Holdings Limited,Financials,Capital Markets,Diversified Financials,183.2 M,2022,0.2x,0.2x,0.3x,0.3x,0.4x,0.4x,0.3x,0.3x,0.2x,0.2x,0.2x,0.2x,0.3x
+439,KuangChi Science Limited,Industrials,Aerospace & Defense,Capital Goods,130.2 M,2022,2.0x,2.0x,2.2x,2.2x,0.6x,0.6x,0.7x,0.7x,0.9x,0.9x,0.9x,0.9x,1.3x
+887,Emperor Watch & Jewellery Limited,Consumer Discretionary,Specialty Retail,Retailing,150.3 M,2022,-,NA,1.5x,1.5x,1.1x,1.1x,0.8x,0.8x,0.5x,0.5x,0.3x,0.3x,0.4x
+71,"Miramar Hotel and Investment Company, Limited",Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,1.037 B,2022,8.8x,8.8x,7.7x,7.7x,10.2x,10.2x,7.5x,7.5x,10.0x,10.0x,6.2x,6.2x,6.0x
+1208,MMG Limited,Materials,Metals & Mining,Materials,2.432 B,2022,0.3x,0.3x,0.4x,0.4x,0.8x,0.8x,1.0x,1.0x,0.4x,0.4x,0.2x,0.2x,0.3x
+610,Wai Kee Holdings Limited,Industrials,Construction & Engineering,Capital Goods,171.8 M,2022,1.3x,1.3x,1.2x,1.2x,1.2x,1.2x,1.2x,1.2x,1.1x,1.1x,1.1x,1.1x,1.1x
+1823,Huayu Expressway Group Limited,Industrials,Construction & Engineering,Capital Goods,100.4 M,2022,1.2x,1.2x,1.2x,1.2x,1.0x,1.0x,1.0x,1.0x,1.0x,1.0x,1.1x,1.1x,1.1x
+626,Public Financial Holdings Limited,Financials,Banks,Banks,309.1 M,2022,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x
+39,China Beidahuang Industry Group Holdings Limited,Consumer Discretionary,Distributors,Retailing,158 M,2022,0.5x,0.5x,0.5x,0.5x,0.8x,0.8x,0.7x,0.7x,0.9x,0.9x,0.8x,0.8x,0.9x
+34,Kowloon Development Company Limited,Real Estate,Real Estate Management & Development,Real Estate,1.238 B,2022,0.1x,0.1x,0.1x,0.1x,0.4x,0.4x,0.2x,0.2x,0.5x,0.5x,0.7x,0.7x,0.2x
+978,China Merchants Land Limited,Real Estate,Real Estate Management & Development,Real Estate,324.9 M,2022,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.1x,0.1x,0.1x,0.1x,0.2x,0.2x,0.2x
+69,Shangri-La Asia Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,3.142 B,2022,0.6x,0.6x,0.6x,0.6x,0.4x,0.4x,0.5x,0.5x,0.7x,0.7x,0.8x,0.8x,0.8x
+1476,"Hengtai Securities Co., Ltd",Financials,Capital Markets,Diversified Financials,929 M,2022,1.0x,1.0x,1.1x,1.1x,1.1x,1.1x,1.1x,1.1x,1.1x,1.0x,1.3x,1.3x,1.3x
+612,China Investment Fund Company Limited,Financials,Capital Markets,Diversified Financials,407.1 M,2022,1.7x,1.7x,1.6x,1.6x,9.7x,9.7x,8.3x,8.3x,2.4x,2.4x,2.0x,2.0x,2.7x
+2008,Phoenix Media Investment (Holdings) Limited,Communication Services,Media,Media,194 M,2022,1.8x,1.8x,1.7x,1.7x,1.8x,1.8x,2.0x,2.0x,1.9x,1.9x,1.9x,1.9x,2.2x
+184,Keck Seng Investments (Hong Kong) Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,125.7 M,2022,0.8x,0.8x,1.7x,1.7x,1.7x,1.7x,1.8x,1.8x,1.2x,1.2x,0.8x,0.8x,0.9x
+1045,APT Satellite Holdings Limited,Communication Services,Diversified Telecommunication Services,Telecommunication Services,294.5 M,2022,-,NA,6.6x,6.6x,6.6x,6.6x,6.2x,6.2x,5.1x,5.1x,4.4x,4.4x,4.4x
+62,Transport International Holdings Limited,Industrials,Road & Rail,Transportation,640.1 M,2022,-,NA,0.9x,0.9x,0.7x,0.7x,0.6x,0.6x,0.8x,0.8x,1.1x,1.1x,1.4x
+85,China Electronics Huada Technology Company Limited,Information Technology,Semiconductors & Semiconductor Equipment,Semiconductors & Semiconductor Equipment,395.6 M,2022,1.0x,1.0x,1.2x,1.2x,1.3x,1.3x,1.3x,1.3x,0.5x,0.5x,0.5x,0.5x,0.5x
+990,Theme International Holdings Limited,Industrials,Trading Companies & Distributors,Capital Goods,1.459 B,2022,1.3x,1.3x,1.3x,1.3x,1.0x,1.0x,1.4x,1.4x,1.1x,1.1x,0.7x,0.7x,0.8x
+1005,Matrix Holdings Limited,Consumer Discretionary,Leisure Products,Consumer Durables & Apparel,231.2 M,2022,2.1x,2.1x,1.5x,1.5x,2.0x,2.0x,2.0x,2.0x,1.9x,1.9x,1.9x,1.9x,1.7x
+32,The Cross-Harbour (Holdings) Limited,Consumer Discretionary,Diversified Consumer Services,Consumer Services,509 M,2022,3.3x,3.3x,5.0x,5.0x,5.2x,5.2x,5.6x,5.6x,5.6x,5.6x,7.6x,7.6x,7.8x
+156,Lippo China Resources Limited,Consumer Staples,Food & Staples Retailing,Food & Staples Retailing,139.3 M,2022,1.3x,1.3x,2.0x,2.0x,2.2x,2.2x,1.5x,1.5x,1.1x,1.1x,2.8x,2.8x,1.6x
+1100,Mainland Headwear Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,116.3 M,2022,0.9x,0.9x,0.9x,0.9x,0.8x,0.8x,1.0x,1.0x,1.0x,1.0x,1.0x,1.0x,0.9x
+187,Beijing Jingcheng Machinery Electric Company Limited,Industrials,Machinery,Capital Goods,819.8 M,2022,1.0x,0.7x,0.6x,0.5x,0.5x,0.5x,0.7x,0.7x,0.5x,0.7x,0.4x,0.4x,0.4x
+2869,Greentown Service Group Co. Ltd.,Real Estate,Real Estate Management & Development,Real Estate,2.067 B,2022,1.2x,1.2x,1.3x,1.3x,1.4x,1.4x,1.4x,1.4x,1.6x,1.6x,1.6x,1.6x,1.0x
+1199,COSCO SHIPPING Ports Limited,Industrials,Transportation Infrastructure,Transportation,2.441 B,2022,0.9x,0.8x,0.9x,0.9x,1.3x,1.3x,1.4x,1.6x,1.4x,1.4x,1.2x,0.9x,1.3x
+419,Huayi Tencent Entertainment Company Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,242.3 M,2022,0.7x,0.7x,0.9x,0.9x,1.6x,1.6x,1.1x,1.1x,0.8x,0.8x,0.5x,0.5x,1.1x
+882,Tianjin Development Holdings Limited,Utilities,Multi-Utilities,Utilities,214.6 M,2022,1.7x,1.7x,1.6x,1.6x,1.7x,1.7x,1.9x,1.9x,1.5x,1.5x,1.6x,1.6x,1.2x
+225,Pokfulam Development Company Limited,Real Estate,Real Estate Management & Development,Real Estate,120.7 M,2022,0.2x,0.2x,0.2x,0.2x,0.8x,0.8x,0.9x,0.9x,1.2x,1.2x,1.3x,1.3x,1.8x
+548,Shenzhen Expressway Corporation Limited,Industrials,Transportation Infrastructure,Transportation,2.383 B,2022,0.3x,0.4x,0.4x,0.5x,0.4x,0.4x,0.5x,0.5x,0.5x,0.8x,0.8x,0.9x,0.9x
+635,Playmates Holdings Limited,Consumer Discretionary,Leisure Products,Consumer Durables & Apparel,166.2 M,2022,3.6x,3.6x,2.0x,2.0x,2.0x,2.0x,2.1x,2.1x,2.3x,2.3x,2.1x,2.1x,2.1x
+450,Hung Hing Printing Group Limited,Materials,Containers & Packaging,Materials,126.1 M,2022,2.8x,2.8x,2.3x,2.3x,2.9x,2.9x,2.5x,2.5x,3.7x,3.7x,4.0x,4.0x,3.7x
+542,TFG International Group Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,212.4 M,2022,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.1x,0.1x,0.1x,0.1x,0.2x
+420,Fountain Set (Holdings) Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,126.4 M,2022,2.0x,2.0x,1.5x,1.5x,1.3x,1.3x,1.2x,1.2x,1.5x,1.5x,1.7x,1.7x,1.6x
+1198,Royale Home Holdings Limited,Consumer Discretionary,Household Durables,Consumer Durables & Apparel,662.1 M,2022,0.2x,0.2x,0.2x,0.2x,0.7x,0.7x,0.3x,0.3x,0.4x,0.4x,1.1x,1.1x,0.4x
+326,China Star Entertainment Limited,Communication Services,Entertainment,Media,203.8 M,2022,0.3x,0.3x,0.1x,0.1x,1.4x,1.4x,2.1x,2.1x,0.7x,0.7x,0.8x,0.8x,2.5x
+185,Zensun Enterprises Limited,Real Estate,Real Estate Management & Development,Real Estate,236.4 M,2022,0.1x,0.1x,0.0x,0.0x,0.0x,0.0x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.0x
+1349,"Shanghai Fudan-Zhangjiang Bio-Pharmaceutical Co.,Ltd.",Healthcare,Pharmaceuticals,"Pharmaceuticals, Biotechnology & Life Sciences",1.049 B,2022,3.0x,3.0x,3.3x,3.8x,3.6x,4.1x,4.2x,5.5x,4.6x,4.5x,4.0x,NA,1.9x
+827,Ko Yo Chemical (Group) Limited,Materials,Chemicals,Materials,120.6 M,2022,0.3x,0.3x,0.4x,0.4x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.1x
+2348,Dawnrays Pharmaceutical (Holdings) Limited,Healthcare,Pharmaceuticals,"Pharmaceuticals, Biotechnology & Life Sciences",255.9 M,2022,2.2x,2.2x,1.7x,1.7x,2.7x,2.7x,2.7x,2.7x,3.0x,3.0x,2.5x,2.5x,2.7x
+2317,Vedan International (Holdings) Limited,Consumer Staples,Food Products,"Food, Beverage & Tobacco",100.9 M,2022,0.8x,0.8x,0.9x,0.9x,1.4x,1.4x,1.2x,1.2x,1.6x,1.6x,1.2x,1.2x,1.4x
+316,Orient Overseas (International) Limited,Industrials,Marine,Transportation,12.661 B,2022,2.8x,2.8x,2.9x,2.9x,2.4x,2.4x,2.4x,2.4x,1.8x,1.8x,1.4x,1.4x,1.4x
+3330,Lingbao Gold Group Company Ltd.,Materials,Metals & Mining,Materials,135.4 M,2022,0.1x,0.1x,0.1x,0.1x,0.0x,0.0x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x
+1051,G-Resources Group Limited,Financials,Diversified Financial Services,Diversified Financials,113.7 M,2022,15.7x,15.7x,18.3x,18.3x,20.8x,20.8x,17.7x,17.7x,15.1x,15.1x,17.3x,17.3x,20.0x
+531,Samson Holding Ltd.,Consumer Discretionary,Household Durables,Consumer Durables & Apparel,102.1 M,2022,-,NA,0.9x,0.9x,0.9x,0.9x,0.9x,0.9x,0.9x,0.9x,0.9x,0.9x,1.0x
+720,Auto Italia Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,120.7 M,2022,0.2x,0.2x,2.5x,2.5x,1.2x,1.2x,0.5x,0.5x,1.0x,1.0x,1.5x,1.5x,1.3x
+3399,Guangdong Yueyun Transportation Company Limited,Industrials,Air Freight & Logistics,Transportation,106 M,2022,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.6x,0.6x,0.5x,0.5x,0.5x,0.5x,0.5x
+547,Digital Domain Holdings Limited,Communication Services,Entertainment,Media,137.9 M,2022,0.6x,0.6x,1.0x,1.0x,1.2x,1.2x,0.4x,0.4x,0.8x,0.8x,1.3x,1.3x,0.9x
+8279,AGTech Holdings Limited,Information Technology,IT Services,Software & Services,364.3 M,2022,1.1x,NA,1.0x,NA,11.4x,NA,14.0x,NA,12.2x,NA,10.3x,NA,10.0x
+89,Tai Sang Land Development Limited,Real Estate,Real Estate Management & Development,Real Estate,148.1 M,2022,0.4x,0.4x,0.2x,0.2x,0.2x,0.2x,0.3x,0.3x,0.2x,0.2x,0.1x,0.1x,0.0x
+981,Semiconductor Manufacturing International Corporation,Information Technology,Semiconductors & Semiconductor Equipment,Semiconductors & Semiconductor Equipment,26.279 B,2022,2.5x,2.5x,3.0x,3.0x,3.3x,3.6x,4.3x,3.4x,3.0x,1.8x,1.6x,1.6x,1.8x
+1868,Neo-Neon Holdings Limited,Industrials,Electrical Equipment,Capital Goods,116.1 M,2022,4.7x,4.7x,3.4x,3.4x,3.7x,3.7x,3.1x,3.1x,2.0x,2.0x,1.6x,1.6x,1.5x
+6093,Hevol Services Group Co. Limited,Real Estate,Real Estate Management & Development,Real Estate,255.4 M,2022,1.1x,1.1x,1.1x,1.1x,1.7x,1.7x,1.5x,1.5x,1.9x,1.9x,1.7x,1.7x,1.1x
+8446,In Technical Productions Holdings Limited,Communication Services,Entertainment,Media,841.8 M,2022,0.1x,NA,0.2x,NA,0.2x,NA,0.5x,NA,1.0x,NA,1.6x,NA,2.3x
+1702,Dongguang Chemical Limited,Materials,Chemicals,Materials,205.7 M,2022,2.6x,2.6x,2.3x,2.3x,1.4x,1.4x,1.2x,1.2x,0.8x,0.8x,0.8x,0.8x,0.7x
+1003,Huanxi Media Group Limited,Communication Services,Entertainment,Media,517 M,2022,0.3x,0.3x,0.5x,0.5x,1.2x,1.2x,1.1x,1.1x,0.7x,0.7x,0.6x,0.6x,1.3x
+837,Carpenter Tan Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,106.5 M,2022,4.1x,4.1x,4.7x,4.7x,4.3x,4.3x,4.2x,4.2x,4.0x,4.0x,2.1x,2.1x,5.4x
+811,"Xinhua Winshare Publishing and Media Co., Ltd.",Consumer Discretionary,Distributors,Retailing,1.501 B,2022,1.1x,1.3x,1.1x,1.1x,1.0x,1.1x,1.1x,1.2x,1.1x,1.2x,1.2x,1.2x,1.1x
+1308,SITC International Holdings Company Limited,Industrials,Marine,Transportation,5.741 B,2022,2.4x,2.4x,2.8x,2.8x,1.4x,1.4x,1.9x,1.9x,1.7x,1.7x,1.5x,1.5x,1.2x
+1029,IRC Limited,Materials,Metals & Mining,Materials,112.9 M,2022,0.9x,0.9x,0.6x,0.6x,1.1x,1.1x,0.3x,0.3x,0.2x,0.2x,0.1x,0.1x,0.2x
+1733,E-Commodities Holdings Limited,Industrials,Trading Companies & Distributors,Capital Goods,496 M,2022,1.1x,1.1x,0.9x,0.9x,0.9x,0.9x,0.8x,0.8x,0.6x,0.6x,0.7x,0.7x,0.7x
+289,Wing On Company International Limited,Consumer Discretionary,Multiline Retail,Retailing,511.4 M,2022,10.1x,10.1x,9.4x,9.4x,10.0x,10.0x,9.2x,9.2x,7.3x,7.3x,6.6x,6.6x,6.9x
+1161,Water Oasis Group Limited,Consumer Discretionary,Diversified Consumer Services,Consumer Services,145.7 M,2022,0.3x,0.3x,0.4x,0.4x,0.5x,0.5x,0.5x,0.5x,0.5x,0.5x,0.6x,0.6x,0.6x
+517,"COSCO SHIPPING International (Hong Kong) Co., Ltd.",Industrials,Transportation Infrastructure,Transportation,473.8 M,2022,6.6x,6.6x,5.7x,5.7x,5.6x,5.6x,5.3x,5.3x,5.7x,5.7x,6.6x,6.6x,7.4x
+212,Nanyang Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,119 M,2022,7.4x,7.4x,4.4x,4.4x,7.2x,7.2x,4.4x,4.4x,5.9x,5.9x,2.8x,2.8x,4.3x
+687,Tysan Holdings Limited,Industrials,Construction & Engineering,Capital Goods,141.5 M,2022,3.0x,3.0x,2.6x,2.6x,2.9x,2.9x,2.5x,2.5x,2.4x,2.4x,1.7x,1.7x,1.6x
+376,Yunfeng Financial Group Limited,Financials,Insurance,Insurance,606.1 M,2022,2.2x,2.2x,3.9x,3.9x,4.8x,4.8x,3.4x,3.4x,2.0x,2.0x,3.0x,3.0x,8.0x
+142,First Pacific Company Limited,Consumer Staples,Food Products,"Food, Beverage & Tobacco",1.295 B,2022,0.9x,0.9x,1.0x,1.0x,0.7x,0.7x,0.7x,0.7x,0.8x,0.8x,0.9x,0.9x,0.7x
+2698,Weiqiao Textile Company Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,176.5 M,2022,1.7x,1.7x,1.8x,1.8x,2.2x,2.2x,2.3x,2.3x,2.0x,2.0x,1.9x,1.9x,1.8x
+1122,"Qingling Motors Co., Ltd.",Consumer Discretionary,Automobiles,Automobiles & Components,306.7 M,2022,2.2x,2.2x,1.6x,1.6x,1.8x,1.8x,2.0x,2.0x,2.0x,2.0x,2.9x,2.9x,3.0x
+603,China Oil And Gas Group Limited,Utilities,Gas Utilities,Utilities,165.3 M,2022,0.8x,0.8x,1.1x,1.1x,1.0x,1.0x,1.1x,1.1x,0.8x,0.8x,1.0x,1.0x,0.4x
+3688,Top Spring International Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,196.8 M,2022,0.1x,0.1x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.3x,0.3x,0.3x
+1127,Lion Rock Group Limited,Industrials,Commercial Services & Supplies,Commercial & Professional Services,108.9 M,2022,1.2x,1.2x,1.5x,1.5x,1.5x,1.5x,1.8x,1.8x,1.7x,1.7x,1.9x,1.9x,1.7x
+3788,China Hanking Holdings Limited,Materials,Metals & Mining,Materials,192.3 M,2022,-,NA,0.3x,0.3x,0.4x,0.4x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.1x
+875,China Finance Investment Holdings Limited,Consumer Staples,Food Products,"Food, Beverage & Tobacco",236.3 M,2022,0.5x,0.5x,0.7x,0.7x,0.7x,0.7x,0.8x,0.8x,1.0x,1.0x,0.8x,0.8x,0.7x
+1329,Beijing Capital Grand Limited,Real Estate,Real Estate Management & Development,Real Estate,223.9 M,2022,0.4x,0.4x,0.3x,0.3x,0.3x,0.3x,0.5x,0.5x,0.1x,0.1x,0.4x,0.4x,0.6x
+1911,China Renaissance Holdings Limited,Financials,Capital Markets,Diversified Financials,517.7 M,2022,1.9x,1.9x,1.6x,1.6x,1.3x,1.3x,1.4x,1.4x,1.7x,1.7x,2.1x,2.1x,2.9x
+1263,PC Partner Group Limited,Information Technology,"Technology Hardware, Storage & Peripherals",Technology Hardware & Equipment,286.6 M,2022,1.1x,1.1x,1.1x,1.1x,1.4x,1.4x,1.0x,1.0x,0.8x,0.8x,0.8x,0.8x,0.7x
+273,Mason Group Holdings Limited,Financials,Capital Markets,Diversified Financials,163.9 M,2022,7.8x,7.8x,7.1x,7.1x,5.0x,5.0x,1.5x,1.5x,0.9x,0.9x,1.1x,1.1x,0.9x
+1316,Nexteer Automotive Group Limited,Consumer Discretionary,Auto Components,Automobiles & Components,1.576 B,2022,1.0x,1.0x,1.1x,1.1x,1.0x,1.0x,1.0x,1.0x,1.0x,1.0x,1.3x,1.3x,1.3x
+2112,Grace Life-tech Holdings Limited,Industrials,Trading Companies & Distributors,Capital Goods,110.8 M,2022,0.8x,0.8x,0.8x,0.8x,0.9x,0.9x,1.0x,1.0x,1.0x,1.0x,1.2x,1.2x,1.3x
+3315,Goldpac Group Limited,Information Technology,"Technology Hardware, Storage & Peripherals",Technology Hardware & Equipment,169.1 M,2022,1.9x,1.9x,1.8x,1.8x,2.6x,2.6x,2.7x,2.7x,3.0x,3.0x,3.2x,3.2x,2.8x
+1290,China Huirong Financial Holdings Limited,Financials,Consumer Finance,Diversified Financials,145.8 M,2022,3.9x,3.9x,3.5x,3.5x,3.3x,3.3x,4.2x,4.2x,4.2x,4.2x,2.6x,2.6x,2.3x
+799,IGG Inc,Communication Services,Entertainment,Media,415.5 M,2022,2.1x,2.1x,1.9x,1.9x,2.4x,2.4x,2.3x,2.3x,2.9x,2.9x,3.3x,3.3x,2.3x
+798,China Electronics Optics Valley Union Holding Company Limited,Real Estate,Real Estate Management & Development,Real Estate,330.9 M,2022,-,NA,0.6x,0.6x,0.5x,0.5x,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.5x
+6138,"Harbin Bank Co., Ltd.",Financials,Banks,Banks,378.2 M,2022,0.2x,0.2x,0.2x,0.2x,0.2x,NA,0.1x,NA,0.2x,0.2x,0.1x,0.1x,0.2x
+1488,Best Food Holding Company Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,175 M,2022,0.4x,0.4x,0.5x,0.5x,0.5x,0.5x,0.5x,0.5x,0.6x,0.6x,0.6x,0.6x,0.9x
+6828,Beijing Gas Blue Sky Holdings Limited,Utilities,Gas Utilities,Utilities,295.4 M,2022,0.1x,0.1x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.4x,0.4x,0.4x,0.4x,0.5x
+1856,Ernest Borel Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,106.2 M,2022,0.2x,0.2x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.3x
+1321,China New City Commercial Development Limited,Real Estate,Real Estate Management & Development,Real Estate,256.2 M,2022,0.2x,0.2x,0.2x,0.2x,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.1x,0.1x,0.1x
+1626,Jia Yao Holdings Limited,Materials,Containers & Packaging,Materials,305.7 M,2022,0.3x,0.3x,0.3x,0.3x,0.4x,0.4x,0.5x,0.5x,0.6x,0.6x,0.6x,0.6x,0.5x
+6836,Tianyun International Holdings Limited,Consumer Staples,Food Products,"Food, Beverage & Tobacco",187.6 M,2022,2.6x,2.6x,2.4x,2.4x,2.0x,2.0x,2.0x,2.0x,1.9x,1.9x,2.3x,2.3x,1.9x
+716,Singamas Container Holdings Limited,Industrials,Machinery,Capital Goods,191.2 M,2022,3.3x,3.3x,2.2x,2.2x,2.1x,2.1x,1.2x,1.2x,1.0x,1.0x,1.2x,1.2x,1.6x
+184,Keck Seng Investments (Hong Kong) Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,125.7 M,2022,0.8x,0.8x,1.7x,1.7x,1.7x,1.7x,1.8x,1.8x,1.2x,1.2x,0.8x,0.8x,0.9x
+655,Hongkong Chinese Limited,Real Estate,Real Estate Management & Development,Real Estate,129.8 M,2022,2.4x,2.4x,2.2x,2.2x,4.3x,4.3x,1.8x,1.8x,3.1x,3.1x,1.6x,1.6x,0.7x
+419,Huayi Tencent Entertainment Company Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,242.3 M,2022,0.7x,0.7x,0.9x,0.9x,1.6x,1.6x,1.1x,1.1x,0.8x,0.8x,0.5x,0.5x,1.1x
+78,Regal Hotels International Holdings Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,360.7 M,2022,1.4x,1.4x,1.6x,1.6x,0.5x,0.5x,0.4x,0.4x,2.0x,2.0x,1.9x,1.9x,2.5x
+232,Continental Aerospace Technologies Holding Limited,Industrials,Aerospace & Defense,Capital Goods,115 M,2022,2.2x,2.2x,1.9x,1.9x,2.0x,2.0x,1.7x,1.7x,1.9x,1.9x,2.1x,2.1x,2.1x
+1548,Genscript Biotech Corporation,Healthcare,Life Sciences Tools & Services,"Pharmaceuticals, Biotechnology & Life Sciences",4.982 B,2022,2.6x,2.6x,3.3x,3.3x,3.1x,3.1x,2.8x,2.8x,3.6x,3.6x,2.2x,2.2x,3.4x
+71,"Miramar Hotel and Investment Company, Limited",Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,1.037 B,2022,8.8x,8.8x,7.7x,7.7x,10.2x,10.2x,7.5x,7.5x,10.0x,10.0x,6.2x,6.2x,6.0x
+2302,CNNC International Limited,Industrials,Trading Companies & Distributors,Capital Goods,115.9 M,2022,0.8x,0.8x,3.0x,3.0x,0.4x,0.4x,0.6x,0.6x,0.9x,0.9x,0.4x,0.4x,0.6x
+610,Wai Kee Holdings Limited,Industrials,Construction & Engineering,Capital Goods,171.8 M,2022,1.3x,1.3x,1.2x,1.2x,1.2x,1.2x,1.2x,1.2x,1.1x,1.1x,1.1x,1.1x,1.1x
+1578,"Bank of Tianjin Co., Ltd.",Financials,Banks,Banks,1.415 B,2022,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x
+85,China Electronics Huada Technology Company Limited,Information Technology,Semiconductors & Semiconductor Equipment,Semiconductors & Semiconductor Equipment,395.6 M,2022,1.0x,1.0x,1.2x,1.2x,1.3x,1.3x,1.3x,1.3x,0.5x,0.5x,0.5x,0.5x,0.5x
+1045,APT Satellite Holdings Limited,Communication Services,Diversified Telecommunication Services,Telecommunication Services,294.5 M,2022,-,NA,6.6x,6.6x,6.6x,6.6x,6.2x,6.2x,5.1x,5.1x,4.4x,4.4x,4.4x
+62,Transport International Holdings Limited,Industrials,Road & Rail,Transportation,640.1 M,2022,-,NA,0.9x,0.9x,0.7x,0.7x,0.6x,0.6x,0.8x,0.8x,1.1x,1.1x,1.4x
+1393,Hidili Industry International Development Limited,Energy,"Oil, Gas & Consumable Fuels",Energy,119.9 M,2022,0.1x,0.1x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x
+3838,China Starch Holdings Limited,Consumer Staples,Food Products,"Food, Beverage & Tobacco",163.4 M,2022,1.6x,1.6x,1.2x,1.2x,1.5x,1.5x,0.6x,0.6x,0.9x,0.9x,0.8x,0.8x,1.0x
+295,Kong Sun Holdings Limited,Utilities,Independent Power & Renewable Electricity Producers,Utilities,143 M,2022,1.0x,1.0x,0.9x,0.9x,1.0x,1.0x,0.4x,0.4x,1.4x,1.4x,0.7x,0.7x,1.0x
+607,Fullshare Holdings Limited,Industrials,Electrical Equipment,Capital Goods,378.3 M,2022,0.5x,0.5x,0.5x,0.5x,0.5x,0.5x,0.6x,0.6x,0.6x,0.6x,0.6x,0.6x,0.6x
+776,Imperium Technology Group Limited,Consumer Discretionary,Household Durables,Consumer Durables & Apparel,177.9 M,2022,0.4x,0.4x,0.3x,0.3x,0.8x,0.8x,0.4x,0.4x,0.6x,0.6x,0.8x,0.8x,0.8x
+887,Emperor Watch & Jewellery Limited,Consumer Discretionary,Specialty Retail,Retailing,150.3 M,2022,-,NA,1.5x,1.5x,1.1x,1.1x,0.8x,0.8x,0.5x,0.5x,0.3x,0.3x,0.4x
+993,Huarong International Financial Holdings Limited,Financials,Capital Markets,Diversified Financials,105.4 M,2022,1.7x,1.7x,1.4x,1.4x,1.1x,1.1x,0.9x,0.9x,0.8x,0.8x,1.2x,1.2x,0.9x
+2878,Solomon Systech (International) Limited,Information Technology,Semiconductors & Semiconductor Equipment,Semiconductors & Semiconductor Equipment,158.9 M,2022,-,NA,1.2x,1.2x,0.9x,0.9x,2.1x,2.1x,2.2x,2.2x,2.0x,2.0x,1.6x
+1176,Zhuguang Holdings Group Company Limited,Real Estate,Real Estate Management & Development,Real Estate,708.8 M,2022,0.8x,0.8x,0.9x,0.9x,0.5x,0.5x,0.6x,0.6x,0.2x,0.2x,0.7x,0.7x,0.7x
+240,Build King Holdings Limited,Industrials,Construction & Engineering,Capital Goods,159.8 M,2022,1.2x,1.2x,1.1x,1.1x,1.0x,1.0x,1.1x,1.1x,1.1x,1.1x,1.1x,1.1x,1.0x
+815,China Silver Group Limited,Materials,Metals & Mining,Materials,103.3 M,2022,0.8x,0.8x,0.6x,0.6x,0.1x,0.1x,1.5x,1.5x,1.7x,1.7x,2.0x,2.0x,1.5x
+1184,S.A.S. Dragon Holdings Limited,Information Technology,"Electronic Equipment, Instruments & Components",Technology Hardware & Equipment,274.3 M,2022,0.8x,0.8x,0.8x,0.8x,0.9x,0.9x,0.8x,0.8x,0.7x,0.7x,0.9x,0.9x,0.9x
+554,Hans Energy Company Limited,Energy,"Oil, Gas & Consumable Fuels",Energy,128.5 M,2022,1.4x,1.4x,1.1x,1.1x,1.4x,1.4x,2.0x,2.0x,1.1x,1.1x,1.5x,1.5x,3.6x
+560,Chu Kong Shipping Enterprises (Group) Company Limited,Industrials,Marine,Transportation,138.5 M,2022,1.8x,1.8x,1.5x,1.5x,1.6x,1.6x,1.6x,1.6x,1.8x,1.8x,1.7x,1.7x,2.3x
+1543,"Guangdong Join-Share Financing Guarantee Investment Co., Ltd.",Financials,Consumer Finance,Diversified Financials,355.9 M,2022,5.8x,5.8x,6.3x,6.3x,6.6x,6.6x,6.2x,6.2x,5.2x,5.2x,6.2x,6.2x,4.7x
+1561,Pan Asia Data Holdings Inc.,Materials,Chemicals,Materials,125.2 M,2022,0.8x,0.8x,0.8x,0.8x,0.4x,0.4x,0.4x,0.4x,0.9x,0.9x,0.7x,0.7x,3.5x
+1180,Paradise Entertainment Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,119.3 M,2022,0.5x,0.5x,0.9x,0.9x,1.1x,1.1x,1.4x,1.4x,1.6x,1.6x,2.0x,2.0x,2.2x
+1823,Huayu Expressway Group Limited,Industrials,Construction & Engineering,Capital Goods,100.4 M,2022,1.2x,1.2x,1.2x,1.2x,1.0x,1.0x,1.0x,1.0x,1.0x,1.0x,1.1x,1.1x,1.1x
+626,Public Financial Holdings Limited,Financials,Banks,Banks,309.1 M,2022,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x
+3737,Zhongzhi Pharmaceutical Holdings Limited,Healthcare,Pharmaceuticals,"Pharmaceuticals, Biotechnology & Life Sciences",113.3 M,2022,1.0x,1.0x,1.4x,1.4x,1.1x,1.1x,1.2x,1.2x,1.2x,1.2x,1.4x,1.4x,1.5x
+563,Shanghai Industrial Urban Development Group Limited,Real Estate,Real Estate Management & Development,Real Estate,317.4 M,2022,0.2x,0.2x,0.3x,0.3x,0.4x,0.4x,0.3x,0.3x,0.4x,0.4x,0.4x,0.4x,0.4x
+533,Goldlion Holdings Limited,Consumer Discretionary,Specialty Retail,Retailing,157.1 M,2022,2.3x,2.3x,2.2x,2.2x,2.2x,2.2x,2.7x,2.7x,3.6x,3.6x,3.5x,3.5x,2.8x
+340,Tongguan Gold Group Limited,Materials,Metals & Mining,Materials,172.9 M,2022,0.3x,0.3x,0.3x,0.3x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x
+612,China Investment Fund Company Limited,Financials,Capital Markets,Diversified Financials,407.1 M,2022,1.7x,1.7x,1.6x,1.6x,9.7x,9.7x,8.3x,8.3x,2.4x,2.4x,2.0x,2.0x,2.7x
+2008,Phoenix Media Investment (Holdings) Limited,Communication Services,Media,Media,194 M,2022,1.8x,1.8x,1.7x,1.7x,1.8x,1.8x,2.0x,2.0x,1.9x,1.9x,1.9x,1.9x,2.2x
+201,Magnificent Hotel Investments Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,129.9 M,2022,0.4x,0.4x,0.5x,0.5x,0.5x,0.5x,0.4x,0.4x,0.5x,0.5x,0.7x,0.7x,0.4x
+990,Theme International Holdings Limited,Industrials,Trading Companies & Distributors,Capital Goods,1.459 B,2022,1.3x,1.3x,1.3x,1.3x,1.0x,1.0x,1.4x,1.4x,1.1x,1.1x,0.7x,0.7x,0.8x
+393,Glorious Sun Enterprises Limited,Consumer Discretionary,Specialty Retail,Retailing,151.8 M,2022,3.6x,3.6x,3.6x,3.6x,3.7x,3.7x,4.0x,4.0x,3.8x,3.8x,3.8x,3.8x,2.5x
+97,Henderson Investment Limited,Consumer Discretionary,Multiline Retail,Retailing,108.7 M,2022,0.5x,0.5x,0.5x,0.5x,0.6x,0.6x,0.7x,0.7x,0.7x,0.7x,0.6x,0.6x,0.6x
+127,Chinese Estates Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,602.7 M,2022,0.9x,0.9x,0.7x,0.7x,0.8x,0.8x,0.4x,0.4x,0.6x,0.6x,0.4x,0.4x,0.8x
+809,Global Bio-chem Technology Group Company Limited,Consumer Staples,Food Products,"Food, Beverage & Tobacco",147.5 M,2022,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.1x
+592,Bossini International Holdings Limited,Consumer Discretionary,Specialty Retail,Retailing,179.4 M,2022,1.1x,1.1x,1.5x,1.5x,0.7x,0.7x,0.8x,0.8x,0.8x,0.8x,2.1x,2.1x,2.1x
+2066,"Shengjing Bank Co., Ltd.",Financials,Banks,Banks,6.724 B,2022,0.2x,0.2x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.3x
+3639,Yida China Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,113.6 M,2022,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.1x,0.1x,0.1x
+2383,TOM Group Limited,Communication Services,Media,Media,327.5 M,2022,1.2x,1.2x,1.2x,1.2x,1.1x,1.1x,1.0x,1.0x,1.0x,1.0x,1.9x,1.9x,0.9x
+3678,"Holly Futures Co., Ltd.",Financials,Capital Markets,Diversified Financials,1.619 B,2022,0.8x,1.1x,NA,1.1x,1.1x,1.3x,NA,1.3x,1.3x,1.3x,1.3x,1.6x,1.6x
+1208,MMG Limited,Materials,Metals & Mining,Materials,2.432 B,2022,0.3x,0.3x,0.4x,0.4x,0.8x,0.8x,1.0x,1.0x,0.4x,0.4x,0.2x,0.2x,0.3x
+1205,CITIC Resources Holdings Limited,Industrials,Trading Companies & Distributors,Capital Goods,430.4 M,2022,1.7x,1.7x,1.8x,1.8x,1.3x,1.3x,2.3x,2.3x,1.7x,1.7x,0.9x,0.9x,0.9x
+158,Melbourne Enterprises Limited,Real Estate,Real Estate Management & Development,Real Estate,388.9 M,2022,5.1x,5.1x,6.0x,6.0x,4.6x,4.6x,5.4x,5.4x,4.2x,4.2x,4.7x,4.7x,3.9x
+39,China Beidahuang Industry Group Holdings Limited,Consumer Discretionary,Distributors,Retailing,158 M,2022,0.5x,0.5x,0.5x,0.5x,0.8x,0.8x,0.7x,0.7x,0.9x,0.9x,0.8x,0.8x,0.9x
+34,Kowloon Development Company Limited,Real Estate,Real Estate Management & Development,Real Estate,1.238 B,2022,0.1x,0.1x,0.1x,0.1x,0.4x,0.4x,0.2x,0.2x,0.5x,0.5x,0.7x,0.7x,0.2x
+1168,Sinolink Worldwide Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,134 M,2022,0.4x,0.4x,0.6x,0.6x,0.7x,0.7x,0.7x,0.7x,0.8x,0.8x,1.1x,1.1x,1.4x
+108,GR Properties Limited,Real Estate,Real Estate Management & Development,Real Estate,387.2 M,2022,0.6x,0.6x,0.3x,0.3x,0.2x,0.2x,0.4x,0.4x,0.4x,0.4x,0.3x,0.3x,0.4x
+1476,"Hengtai Securities Co., Ltd",Financials,Capital Markets,Diversified Financials,929 M,2022,1.0x,1.0x,1.1x,1.1x,1.1x,1.1x,1.1x,1.1x,1.1x,1.0x,1.3x,1.3x,1.3x
+662,Asia Financial Holdings Limited,Financials,Insurance,Insurance,386.3 M,2022,17.9x,17.9x,2.0x,2.0x,17.7x,17.7x,2.0x,2.0x,19.2x,19.2x,2.3x,2.3x,7.0x
+50,Hong Kong Ferry (Holdings) Company Limited,Real Estate,Real Estate Management & Development,Real Estate,331.3 M,2022,8.8x,8.8x,7.2x,7.2x,9.9x,9.9x,6.8x,6.8x,5.4x,5.4x,7.7x,7.7x,6.8x
+222,Min Xin Holdings Limited,Financials,Insurance,Insurance,229 M,2022,2.0x,2.0x,2.0x,2.0x,2.0x,2.0x,2.1x,2.1x,2.5x,2.5x,3.8x,3.8x,3.6x
+1689,Huaxi Holdings Company Limited,Materials,Containers & Packaging,Materials,120.6 M,2022,2.2x,2.2x,2.1x,2.1x,2.3x,2.3x,2.6x,2.6x,2.5x,2.5x,3.1x,3.1x,2.7x
+1290,China Huirong Financial Holdings Limited,Financials,Consumer Finance,Diversified Financials,145.8 M,2022,3.9x,3.9x,3.5x,3.5x,3.3x,3.3x,4.2x,4.2x,4.2x,4.2x,2.6x,2.6x,2.3x
+799,IGG Inc,Communication Services,Entertainment,Media,415.5 M,2022,2.1x,2.1x,1.9x,1.9x,2.4x,2.4x,2.3x,2.3x,2.9x,2.9x,3.3x,3.3x,2.3x
+1115,Tibet Water Resources Ltd.,Consumer Staples,Beverages,"Food, Beverage & Tobacco",214.7 M,2022,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.4x,0.4x,0.5x,0.5x,0.7x,0.7x,0.7x
+1856,Ernest Borel Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,106.2 M,2022,0.2x,0.2x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.3x
+1370,Aowei Holding Limited,Materials,Metals & Mining,Materials,160.4 M,2022,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.1x,0.1x,0.6x,0.6x,0.6x,0.6x,0.8x
+1321,China New City Commercial Development Limited,Real Estate,Real Estate Management & Development,Real Estate,256.2 M,2022,0.2x,0.2x,0.2x,0.2x,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.1x,0.1x,0.1x
+1680,Macau Legend Development Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,240.9 M,2022,0.1x,0.1x,0.3x,0.3x,0.1x,0.1x,0.3x,0.3x,0.6x,0.6x,1.0x,1.0x,1.0x
+2588,BOC Aviation Limited,Industrials,Trading Companies & Distributors,Capital Goods,5.305 B,2022,0.3x,0.3x,0.2x,0.2x,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.1x
+8328,Xinyi Electric Storage Holdings Limited,Industrials,Electrical Equipment,Capital Goods,391.1 M,2022,0.8x,NA,0.6x,NA,1.3x,NA,1.0x,NA,2.3x,NA,3.2x,NA,3.1x
+2232,Crystal International Group Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,1.047 B,2022,0.9x,0.9x,1.1x,1.1x,1.1x,1.1x,1.0x,1.0x,1.1x,1.1x,0.9x,0.9x,0.8x
+1216,"Zhongyuan Bank Co., Ltd.",Financials,Banks,Banks,2.933 B,2022,0.2x,0.2x,0.2x,0.2x,0.1x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x
+2136,Lifestyle China Group Limited,Consumer Discretionary,Multiline Retail,Retailing,223.9 M,2022,0.8x,0.8x,0.9x,0.9x,1.1x,1.1x,1.6x,1.6x,1.5x,1.5x,1.7x,1.7x,1.7x
+1272,"Datang Environment Industry Group Co., Ltd.",Industrials,Commercial Services & Supplies,Commercial & Professional Services,359.1 M,2022,1.0x,NA,1.0x,1.1x,1.0x,1.1x,1.1x,1.1x,1.1x,1.1x,1.1x,1.0x,1.1x
+6088,FIT Hon Teng Limited,Information Technology,"Electronic Equipment, Instruments & Components",Technology Hardware & Equipment,1.715 B,2022,1.1x,1.1x,1.0x,1.0x,1.0x,1.0x,0.8x,0.8x,1.0x,1.0x,1.1x,1.1x,1.2x
+6885,Henan Jinma Energy Company Limited,Materials,Metals & Mining,Materials,196.4 M,2022,0.6x,0.6x,0.6x,0.6x,0.5x,0.5x,0.8x,0.8x,1.2x,1.2x,1.3x,1.3x,1.7x
+2448,Space Group Holdings Limited,Industrials,Construction & Engineering,Capital Goods,349.1 M,2022,1.2x,1.2x,0.9x,0.9x,0.8x,0.8x,1.1x,1.1x,0.9x,0.9x,1.6x,1.6x,1.4x
+1741,Ri Ying Holdings Limited,Industrials,Construction & Engineering,Capital Goods,136.6 M,2022,0.8x,0.8x,1.1x,1.1x,1.3x,1.3x,2.6x,2.6x,4.6x,4.6x,4.6x,4.6x,2.8x
+2798,Perennial Energy Holdings Limited,Materials,Metals & Mining,Materials,236.4 M,2022,0.8x,0.8x,0.8x,0.8x,0.8x,0.8x,0.6x,0.6x,0.8x,0.8x,0.6x,0.6x,1.2x
+1860,Mobvista Inc.,Communication Services,Media,Media,804.4 M,2022,0.9x,0.9x,0.9x,0.9x,1.3x,1.3x,1.3x,1.3x,1.5x,1.5x,1.8x,1.8x,1.4x
+1713,"Sichuan Energy Investment Development Co., Ltd.",Utilities,Electric Utilities,Utilities,238.1 M,2022,0.8x,0.8x,0.7x,0.7x,0.7x,0.7x,0.7x,0.7x,0.7x,0.7x,0.8x,0.8x,0.9x
+573,Tao Heung Holdings Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,111.1 M,2022,0.6x,0.6x,0.9x,0.9x,0.7x,0.7x,0.9x,0.9x,0.7x,0.7x,1.0x,1.0x,0.8x
+1003,Huanxi Media Group Limited,Communication Services,Entertainment,Media,517 M,2022,0.3x,0.3x,0.5x,0.5x,1.2x,1.2x,1.1x,1.1x,0.7x,0.7x,0.6x,0.6x,1.3x
+3738,Vobile Group Limited,Information Technology,Software,Software & Services,1.11 B,2022,2.4x,2.4x,4.1x,4.1x,8.1x,8.1x,3.4x,3.4x,0.8x,0.8x,1.4x,1.4x,3.0x
+1866,China XLX Fertiliser Ltd.,Materials,Chemicals,Materials,735.2 M,2022,0.3x,0.3x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.3x,0.3x,0.2x,0.2x,0.3x
+1299,AIA Group Limited,Financials,Insurance,Insurance,120.7 B,2022,1.2x,1.2x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x
+1090,Da Ming International Holdings Limited,Materials,Metals & Mining,Materials,261.4 M,2022,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x
+3788,China Hanking Holdings Limited,Materials,Metals & Mining,Materials,192.3 M,2022,-,NA,0.3x,0.3x,0.4x,0.4x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.1x
+3688,Top Spring International Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,196.8 M,2022,0.1x,0.1x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.3x,0.3x,0.3x
+6830,Huazhong In-Vehicle Holdings Company Limited,Consumer Discretionary,Auto Components,Automobiles & Components,558.9 M,2022,0.6x,0.6x,0.5x,0.5x,0.5x,0.5x,0.5x,0.5x,0.4x,0.4x,0.5x,0.5x,0.5x
+3939,Wanguo International Mining Group Limited,Materials,Metals & Mining,Materials,208.9 M,2022,0.2x,0.2x,0.2x,0.2x,0.4x,0.4x,0.4x,0.4x,0.1x,0.1x,0.1x,0.1x,0.0x
+273,Mason Group Holdings Limited,Financials,Capital Markets,Diversified Financials,163.9 M,2022,7.8x,7.8x,7.1x,7.1x,5.0x,5.0x,1.5x,1.5x,0.9x,0.9x,1.1x,1.1x,0.9x
+1258,China Nonferrous Mining Corporation Limited,Materials,Metals & Mining,Materials,1.777 B,2022,1.4x,1.4x,1.2x,1.2x,1.4x,1.4x,0.6x,0.6x,0.8x,0.8x,0.8x,0.8x,0.9x
+329,OCI International Holdings Limited,Financials,Capital Markets,Diversified Financials,137.6 M,2022,3.3x,3.3x,3.0x,3.0x,2.0x,2.0x,1.4x,1.4x,1.4x,1.4x,1.1x,1.1x,0.6x
+2236,Wison Engineering Services Co. Ltd.,Energy,Energy Equipment & Services,Energy,212.8 M,2022,0.7x,0.7x,0.8x,0.8x,0.7x,0.7x,0.7x,0.7x,0.8x,0.8x,0.9x,0.9x,0.7x
+8032,Viva China Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,1.665 B,2022,0.9x,NA,3.5x,NA,3.6x,NA,2.3x,NA,3.3x,NA,7.7x,NA,2.6x
+1488,Best Food Holding Company Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,175 M,2022,0.4x,0.4x,0.5x,0.5x,0.5x,0.5x,0.5x,0.5x,0.6x,0.6x,0.6x,0.6x,0.9x
+6828,Beijing Gas Blue Sky Holdings Limited,Utilities,Gas Utilities,Utilities,295.4 M,2022,0.1x,0.1x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.4x,0.4x,0.4x,0.4x,0.5x
+1910,Samsonite International S.A.,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,4.403 B,2022,0.8x,1.0x,1.4x,1.4x,1.7x,1.7x,1.6x,2.2x,2.2x,2.4x,2.2x,1.6x,0.8x
+39,China Beidahuang Industry Group Holdings Limited,Consumer Discretionary,Distributors,Retailing,158 M,2022,0.5x,0.5x,0.5x,0.5x,0.8x,0.8x,0.7x,0.7x,0.9x,0.9x,0.8x,0.8x,0.9x
+34,Kowloon Development Company Limited,Real Estate,Real Estate Management & Development,Real Estate,1.238 B,2022,0.1x,0.1x,0.1x,0.1x,0.4x,0.4x,0.2x,0.2x,0.5x,0.5x,0.7x,0.7x,0.2x
+158,Melbourne Enterprises Limited,Real Estate,Real Estate Management & Development,Real Estate,388.9 M,2022,5.1x,5.1x,6.0x,6.0x,4.6x,4.6x,5.4x,5.4x,4.2x,4.2x,4.7x,4.7x,3.9x
+108,GR Properties Limited,Real Estate,Real Estate Management & Development,Real Estate,387.2 M,2022,0.6x,0.6x,0.3x,0.3x,0.2x,0.2x,0.4x,0.4x,0.4x,0.4x,0.3x,0.3x,0.4x
+716,Singamas Container Holdings Limited,Industrials,Machinery,Capital Goods,191.2 M,2022,3.3x,3.3x,2.2x,2.2x,2.1x,2.1x,1.2x,1.2x,1.0x,1.0x,1.2x,1.2x,1.6x
+50,Hong Kong Ferry (Holdings) Company Limited,Real Estate,Real Estate Management & Development,Real Estate,331.3 M,2022,8.8x,8.8x,7.2x,7.2x,9.9x,9.9x,6.8x,6.8x,5.4x,5.4x,7.7x,7.7x,6.8x
+3833,"Xinjiang Xinxin Mining Industry Co., Ltd.",Materials,Metals & Mining,Materials,363.2 M,2022,0.7x,0.7x,0.4x,0.4x,0.4x,0.4x,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x,0.2x
+607,Fullshare Holdings Limited,Industrials,Electrical Equipment,Capital Goods,378.3 M,2022,0.5x,0.5x,0.5x,0.5x,0.5x,0.5x,0.6x,0.6x,0.6x,0.6x,0.6x,0.6x,0.6x
+993,Huarong International Financial Holdings Limited,Financials,Capital Markets,Diversified Financials,105.4 M,2022,1.7x,1.7x,1.4x,1.4x,1.1x,1.1x,0.9x,0.9x,0.8x,0.8x,1.2x,1.2x,0.9x
+1141,CMBC Capital Holdings Limited,Financials,Capital Markets,Diversified Financials,183.2 M,2022,0.2x,0.2x,0.3x,0.3x,0.4x,0.4x,0.3x,0.3x,0.2x,0.2x,0.2x,0.2x,0.3x
+686,"Beijing Energy International Holding Co., Ltd.",Utilities,Independent Power & Renewable Electricity Producers,Utilities,527.9 M,2022,0.9x,0.9x,1.1x,1.1x,1.1x,1.1x,0.8x,0.8x,0.8x,0.8x,0.4x,0.4x,0.6x
+2878,Solomon Systech (International) Limited,Information Technology,Semiconductors & Semiconductor Equipment,Semiconductors & Semiconductor Equipment,158.9 M,2022,-,NA,1.2x,1.2x,0.9x,0.9x,2.1x,2.1x,2.2x,2.2x,2.0x,2.0x,1.6x
+3636,Poly Culture Group Corporation Limited,Communication Services,Entertainment,Media,121.4 M,2022,0.3x,0.5x,0.3x,0.5x,0.3x,0.6x,0.2x,0.5x,0.2x,0.6x,0.2x,0.5x,0.3x
+815,China Silver Group Limited,Materials,Metals & Mining,Materials,103.3 M,2022,0.8x,0.8x,0.6x,0.6x,0.1x,0.1x,1.5x,1.5x,1.7x,1.7x,2.0x,2.0x,1.5x
+3903,"Hanhua Financial Holding Co., Ltd.",Financials,Diversified Financial Services,Diversified Financials,190.5 M,2022,26.8x,26.8x,2.2x,2.2x,18.3x,18.3x,2.3x,2.3x,17.9x,17.9x,2.0x,2.0x,4.0x
+240,Build King Holdings Limited,Industrials,Construction & Engineering,Capital Goods,159.8 M,2022,1.2x,1.2x,1.1x,1.1x,1.0x,1.0x,1.1x,1.1x,1.1x,1.1x,1.1x,1.1x,1.0x
+1176,Zhuguang Holdings Group Company Limited,Real Estate,Real Estate Management & Development,Real Estate,708.8 M,2022,0.8x,0.8x,0.9x,0.9x,0.5x,0.5x,0.6x,0.6x,0.2x,0.2x,0.7x,0.7x,0.7x
+1184,S.A.S. Dragon Holdings Limited,Information Technology,"Electronic Equipment, Instruments & Components",Technology Hardware & Equipment,274.3 M,2022,0.8x,0.8x,0.8x,0.8x,0.9x,0.9x,0.8x,0.8x,0.7x,0.7x,0.9x,0.9x,0.9x
+554,Hans Energy Company Limited,Energy,"Oil, Gas & Consumable Fuels",Energy,128.5 M,2022,1.4x,1.4x,1.1x,1.1x,1.4x,1.4x,2.0x,2.0x,1.1x,1.1x,1.5x,1.5x,3.6x
+1258,China Nonferrous Mining Corporation Limited,Materials,Metals & Mining,Materials,1.777 B,2022,1.4x,1.4x,1.2x,1.2x,1.4x,1.4x,0.6x,0.6x,0.8x,0.8x,0.8x,0.8x,0.9x
+329,OCI International Holdings Limited,Financials,Capital Markets,Diversified Financials,137.6 M,2022,3.3x,3.3x,3.0x,3.0x,2.0x,2.0x,1.4x,1.4x,1.4x,1.4x,1.1x,1.1x,0.6x
+3316,Binjiang Service Group Co. Ltd.,Industrials,Commercial Services & Supplies,Commercial & Professional Services,843.3 M,2022,1.4x,1.4x,1.5x,1.5x,1.9x,1.9x,1.8x,1.8x,1.9x,1.9x,1.9x,1.9x,2.1x
+3315,Goldpac Group Limited,Information Technology,"Technology Hardware, Storage & Peripherals",Technology Hardware & Equipment,169.1 M,2022,1.9x,1.9x,1.8x,1.8x,2.6x,2.6x,2.7x,2.7x,3.0x,3.0x,3.2x,3.2x,2.8x
+1290,China Huirong Financial Holdings Limited,Financials,Consumer Finance,Diversified Financials,145.8 M,2022,3.9x,3.9x,3.5x,3.5x,3.3x,3.3x,4.2x,4.2x,4.2x,4.2x,2.6x,2.6x,2.3x
+799,IGG Inc,Communication Services,Entertainment,Media,415.5 M,2022,2.1x,2.1x,1.9x,1.9x,2.4x,2.4x,2.3x,2.3x,2.9x,2.9x,3.3x,3.3x,2.3x
+798,China Electronics Optics Valley Union Holding Company Limited,Real Estate,Real Estate Management & Development,Real Estate,330.9 M,2022,-,NA,0.6x,0.6x,0.5x,0.5x,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.5x
+1488,Best Food Holding Company Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,175 M,2022,0.4x,0.4x,0.5x,0.5x,0.5x,0.5x,0.5x,0.5x,0.6x,0.6x,0.6x,0.6x,0.9x
+2399,China Anchu Energy Storage Group Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,146.5 M,2022,0.6x,0.6x,0.6x,0.6x,0.5x,0.5x,0.6x,0.6x,0.9x,0.9x,1.0x,1.0x,1.1x
+695,Dongwu Cement International Limited,Materials,Construction Materials,Materials,289 M,2022,1.3x,1.3x,1.7x,1.7x,1.5x,1.5x,2.0x,2.0x,1.9x,1.9x,1.8x,1.8x,0.9x
+2236,Wison Engineering Services Co. Ltd.,Energy,Energy Equipment & Services,Energy,212.8 M,2022,0.7x,0.7x,0.8x,0.8x,0.7x,0.7x,0.7x,0.7x,0.8x,0.8x,0.9x,0.9x,0.7x
+8032,Viva China Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,1.665 B,2022,0.9x,NA,3.5x,NA,3.6x,NA,2.3x,NA,3.3x,NA,7.7x,NA,2.6x
+1689,Huaxi Holdings Company Limited,Materials,Containers & Packaging,Materials,120.6 M,2022,2.2x,2.2x,2.1x,2.1x,2.3x,2.3x,2.6x,2.6x,2.5x,2.5x,3.1x,3.1x,2.7x
+1316,Nexteer Automotive Group Limited,Consumer Discretionary,Auto Components,Automobiles & Components,1.576 B,2022,1.0x,1.0x,1.1x,1.1x,1.0x,1.0x,1.0x,1.0x,1.0x,1.0x,1.3x,1.3x,1.3x
+2112,Grace Life-tech Holdings Limited,Industrials,Trading Companies & Distributors,Capital Goods,110.8 M,2022,0.8x,0.8x,0.8x,0.8x,0.9x,0.9x,1.0x,1.0x,1.0x,1.0x,1.2x,1.2x,1.3x
+6138,"Harbin Bank Co., Ltd.",Financials,Banks,Banks,378.2 M,2022,0.2x,0.2x,0.2x,0.2x,0.2x,NA,0.1x,NA,0.2x,0.2x,0.1x,0.1x,0.2x
+1370,Aowei Holding Limited,Materials,Metals & Mining,Materials,160.4 M,2022,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.1x,0.1x,0.6x,0.6x,0.6x,0.6x,0.8x
+6828,Beijing Gas Blue Sky Holdings Limited,Utilities,Gas Utilities,Utilities,295.4 M,2022,0.1x,0.1x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.4x,0.4x,0.4x,0.4x,0.5x
+288,WH Group Limited,Consumer Staples,Food Products,"Food, Beverage & Tobacco",8.035 B,2022,0.5x,0.5x,0.6x,0.6x,0.7x,0.7x,0.8x,0.8x,0.7x,0.7x,0.5x,0.5x,0.5x
+1910,Samsonite International S.A.,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,4.403 B,2022,0.8x,1.0x,1.4x,1.4x,1.7x,1.7x,1.6x,2.2x,2.2x,2.4x,2.2x,1.6x,0.8x
+1856,Ernest Borel Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,106.2 M,2022,0.2x,0.2x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.3x
+6805,Kimou Environmental Holding Limited,Industrials,Commercial Services & Supplies,Commercial & Professional Services,130.2 M,2022,0.3x,0.3x,0.2x,0.2x,0.2x,0.2x,0.3x,0.3x,0.2x,0.2x,0.2x,0.2x,0.2x
+1817,Mulsanne Group Holding Limited,Consumer Discretionary,Specialty Retail,Retailing,303.8 M,2022,0.4x,0.4x,0.5x,0.5x,0.9x,0.9x,1.0x,1.0x,1.2x,1.2x,1.1x,1.1x,0.9x
+1983,"Luzhou Bank Co., Ltd.",Financials,Banks,Banks,875.9 M,2022,0.3x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.3x,0.1x,0.1x
+1748,Xin Yuan Enterprises Group Limited,Industrials,Marine,Transportation,144.1 M,2022,0.6x,0.6x,0.1x,0.1x,0.3x,0.3x,0.3x,0.3x,0.4x,0.4x,0.1x,0.1x,0.9x
+1741,Ri Ying Holdings Limited,Industrials,Construction & Engineering,Capital Goods,136.6 M,2022,0.8x,0.8x,1.1x,1.1x,1.3x,1.3x,2.6x,2.6x,4.6x,4.6x,4.6x,4.6x,2.8x
+2798,Perennial Energy Holdings Limited,Materials,Metals & Mining,Materials,236.4 M,2022,0.8x,0.8x,0.8x,0.8x,0.8x,0.8x,0.6x,0.6x,0.8x,0.8x,0.6x,0.6x,1.2x
+1860,Mobvista Inc.,Communication Services,Media,Media,804.4 M,2022,0.9x,0.9x,0.9x,0.9x,1.3x,1.3x,1.3x,1.3x,1.5x,1.5x,1.8x,1.8x,1.4x
+3399,Guangdong Yueyun Transportation Company Limited,Industrials,Air Freight & Logistics,Transportation,106 M,2022,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.6x,0.6x,0.5x,0.5x,0.5x,0.5x,0.5x
+720,Auto Italia Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,120.7 M,2022,0.2x,0.2x,2.5x,2.5x,1.2x,1.2x,0.5x,0.5x,1.0x,1.0x,1.5x,1.5x,1.3x
+3869,Hospital Corporation of China Limited,Healthcare,Healthcare Providers & Services,Healthcare Equipment & Services,135.6 M,2022,1.3x,1.3x,2.0x,2.0x,2.8x,2.8x,2.6x,2.6x,1.4x,1.4x,2.5x,2.5x,2.6x
+8279,AGTech Holdings Limited,Information Technology,IT Services,Software & Services,364.3 M,2022,1.1x,NA,1.0x,NA,11.4x,NA,14.0x,NA,12.2x,NA,10.3x,NA,10.0x
+528,Kingdom Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,113.9 M,2022,0.5x,0.5x,0.6x,0.6x,0.4x,0.4x,0.4x,0.4x,0.3x,0.3x,0.4x,0.4x,0.5x
+1224,C C Land Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,845.7 M,2022,4.0x,4.0x,1.6x,1.6x,0.6x,0.6x,0.5x,0.5x,3.9x,3.9x,5.8x,5.8x,3.1x
+2377,"China Boqi Environmental (Holding) Co., Ltd.",Industrials,Commercial Services & Supplies,Commercial & Professional Services,120.4 M,2022,1.3x,1.3x,1.3x,1.3x,1.2x,1.2x,1.5x,1.5x,1.3x,1.3x,1.3x,1.3x,1.1x
+982,Huafa Property Services Group Company Limited,Real Estate,Real Estate Management & Development,Real Estate,189.7 M,2022,0.8x,0.8x,0.8x,0.8x,0.7x,0.7x,0.6x,0.6x,0.6x,0.6x,1.2x,1.2x,1.2x
+3939,Wanguo International Mining Group Limited,Materials,Metals & Mining,Materials,208.9 M,2022,0.2x,0.2x,0.2x,0.2x,0.4x,0.4x,0.4x,0.4x,0.1x,0.1x,0.1x,0.1x,0.0x
+1708,Nanjing Sample Technology Company Limited,Information Technology,"Electronic Equipment, Instruments & Components",Technology Hardware & Equipment,423.8 M,2022,1.1x,1.1x,0.9x,0.9x,0.8x,0.8x,1.0x,1.0x,1.0x,1.0x,1.1x,1.1x,1.3x
+560,Chu Kong Shipping Enterprises (Group) Company Limited,Industrials,Marine,Transportation,138.5 M,2022,1.8x,1.8x,1.5x,1.5x,1.6x,1.6x,1.6x,1.6x,1.8x,1.8x,1.7x,1.7x,2.3x
+97,Henderson Investment Limited,Consumer Discretionary,Multiline Retail,Retailing,108.7 M,2022,0.5x,0.5x,0.5x,0.5x,0.6x,0.6x,0.7x,0.7x,0.7x,0.7x,0.6x,0.6x,0.6x
+127,Chinese Estates Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,602.7 M,2022,0.9x,0.9x,0.7x,0.7x,0.8x,0.8x,0.4x,0.4x,0.6x,0.6x,0.4x,0.4x,0.8x
+1543,"Guangdong Join-Share Financing Guarantee Investment Co., Ltd.",Financials,Consumer Finance,Diversified Financials,355.9 M,2022,5.8x,5.8x,6.3x,6.3x,6.6x,6.6x,6.2x,6.2x,5.2x,5.2x,6.2x,6.2x,4.7x
+1548,Genscript Biotech Corporation,Healthcare,Life Sciences Tools & Services,"Pharmaceuticals, Biotechnology & Life Sciences",4.982 B,2022,2.6x,2.6x,3.3x,3.3x,3.1x,3.1x,2.8x,2.8x,3.6x,3.6x,2.2x,2.2x,3.4x
+78,Regal Hotels International Holdings Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,360.7 M,2022,1.4x,1.4x,1.6x,1.6x,0.5x,0.5x,0.4x,0.4x,2.0x,2.0x,1.9x,1.9x,2.5x
+2008,Phoenix Media Investment (Holdings) Limited,Communication Services,Media,Media,194 M,2022,1.8x,1.8x,1.7x,1.7x,1.8x,1.8x,2.0x,2.0x,1.9x,1.9x,1.9x,1.9x,2.2x
+184,Keck Seng Investments (Hong Kong) Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,125.7 M,2022,0.8x,0.8x,1.7x,1.7x,1.7x,1.7x,1.8x,1.8x,1.2x,1.2x,0.8x,0.8x,0.9x
+1045,APT Satellite Holdings Limited,Communication Services,Diversified Telecommunication Services,Telecommunication Services,294.5 M,2022,-,NA,6.6x,6.6x,6.6x,6.6x,6.2x,6.2x,5.1x,5.1x,4.4x,4.4x,4.4x
+62,Transport International Holdings Limited,Industrials,Road & Rail,Transportation,640.1 M,2022,-,NA,0.9x,0.9x,0.7x,0.7x,0.6x,0.6x,0.8x,0.8x,1.1x,1.1x,1.4x
+32,The Cross-Harbour (Holdings) Limited,Consumer Discretionary,Diversified Consumer Services,Consumer Services,509 M,2022,3.3x,3.3x,5.0x,5.0x,5.2x,5.2x,5.6x,5.6x,5.6x,5.6x,7.6x,7.6x,7.8x
+1100,Mainland Headwear Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,116.3 M,2022,0.9x,0.9x,0.9x,0.9x,0.8x,0.8x,1.0x,1.0x,1.0x,1.0x,1.0x,1.0x,0.9x
+156,Lippo China Resources Limited,Consumer Staples,Food & Staples Retailing,Food & Staples Retailing,139.3 M,2022,1.3x,1.3x,2.0x,2.0x,2.2x,2.2x,1.5x,1.5x,1.1x,1.1x,2.8x,2.8x,1.6x
+346,Yanchang Petroleum International Limited,Energy,"Oil, Gas & Consumable Fuels",Energy,126.1 M,2022,0.4x,0.4x,0.4x,0.4x,0.4x,0.4x,0.6x,0.6x,0.2x,0.2x,0.5x,0.5x,0.5x
+1088,China Shenhua Energy Company Limited,Energy,"Oil, Gas & Consumable Fuels",Energy,71.854 B,2022,1.8x,2.0x,1.5x,2.2x,1.9x,2.0x,1.6x,2.0x,2.0x,2.0x,1.2x,0.9x,1.2x
+1393,Hidili Industry International Development Limited,Energy,"Oil, Gas & Consumable Fuels",Energy,119.9 M,2022,0.1x,0.1x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x
+295,Kong Sun Holdings Limited,Utilities,Independent Power & Renewable Electricity Producers,Utilities,143 M,2022,1.0x,1.0x,0.9x,0.9x,1.0x,1.0x,0.4x,0.4x,1.4x,1.4x,0.7x,0.7x,1.0x
+3838,China Starch Holdings Limited,Consumer Staples,Food Products,"Food, Beverage & Tobacco",163.4 M,2022,1.6x,1.6x,1.2x,1.2x,1.5x,1.5x,0.6x,0.6x,0.9x,0.9x,0.8x,0.8x,1.0x
+588,Beijing North Star Company Limited,Real Estate,Real Estate Management & Development,Real Estate,862.6 M,2022,0.4x,0.3x,0.4x,0.4x,0.4x,0.3x,0.4x,0.3x,0.3x,0.3x,0.3x,0.3x,0.3x
+887,Emperor Watch & Jewellery Limited,Consumer Discretionary,Specialty Retail,Retailing,150.3 M,2022,-,NA,1.5x,1.5x,1.1x,1.1x,0.8x,0.8x,0.5x,0.5x,0.3x,0.3x,0.4x
+2722,"Chongqing Machinery & Electric Co., Ltd.",Industrials,Industrial Conglomerates,Capital Goods,291 M,2022,1.0x,1.0x,1.0x,1.0x,1.0x,1.0x,0.9x,0.9x,0.9x,0.9x,0.9x,0.9x,0.8x
+373,Allied Group Limited,Financials,Consumer Finance,Diversified Financials,774.4 M,2022,1.2x,1.2x,1.2x,1.2x,1.9x,1.9x,2.0x,2.0x,2.0x,2.0x,2.7x,2.7x,2.4x
+2343,Pacific Basin Shipping Limited,Industrials,Marine,Transportation,2.151 B,2022,1.3x,1.3x,1.6x,1.6x,1.6x,1.6x,0.9x,0.9x,1.0x,1.0x,1.0x,1.0x,0.8x
+289,Wing On Company International Limited,Consumer Discretionary,Multiline Retail,Retailing,511.4 M,2022,10.1x,10.1x,9.4x,9.4x,10.0x,10.0x,9.2x,9.2x,7.3x,7.3x,6.6x,6.6x,6.9x
+258,Tomson Group Limited,Real Estate,Real Estate Management & Development,Real Estate,421.8 M,2022,0.8x,0.8x,0.9x,0.9x,0.8x,0.8x,0.7x,0.7x,0.7x,0.7x,0.7x,0.7x,0.7x
+693,Tan Chong International Limited,Consumer Discretionary,Distributors,Retailing,436 M,2022,0.9x,0.9x,1.0x,1.0x,1.3x,1.3x,1.3x,1.3x,1.0x,1.0x,1.0x,1.0x,1.3x
+142,First Pacific Company Limited,Consumer Staples,Food Products,"Food, Beverage & Tobacco",1.295 B,2022,0.9x,0.9x,1.0x,1.0x,0.7x,0.7x,0.7x,0.7x,0.8x,0.8x,0.9x,0.9x,0.7x
+120,Cosmopolitan International Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,1.649 B,2022,0.1x,0.1x,0.1x,0.1x,0.0x,0.0x,0.1x,0.1x,0.3x,0.3x,0.4x,0.4x,0.3x
+603,China Oil And Gas Group Limited,Utilities,Gas Utilities,Utilities,165.3 M,2022,0.8x,0.8x,1.1x,1.1x,1.0x,1.0x,1.1x,1.1x,0.8x,0.8x,1.0x,1.0x,0.4x
+2038,FIH Mobile Limited,Information Technology,"Electronic Equipment, Instruments & Components",Technology Hardware & Equipment,877.9 M,2022,0.9x,0.9x,0.9x,0.9x,1.0x,1.0x,1.0x,1.0x,1.0x,1.0x,0.9x,0.9x,0.9x
+256,Citychamp Watch & Jewellery Group Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,637.6 M,2022,10.8x,10.8x,9.7x,9.7x,6.1x,6.1x,6.5x,6.5x,5.3x,5.3x,4.9x,4.9x,5.7x
+517,"COSCO SHIPPING International (Hong Kong) Co., Ltd.",Industrials,Transportation Infrastructure,Transportation,473.8 M,2022,6.6x,6.6x,5.7x,5.7x,5.6x,5.6x,5.3x,5.3x,5.7x,5.7x,6.6x,6.6x,7.4x
+2698,Weiqiao Textile Company Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,176.5 M,2022,1.7x,1.7x,1.8x,1.8x,2.2x,2.2x,2.3x,2.3x,2.0x,2.0x,1.9x,1.9x,1.8x
+1126,Dream International Limited,Consumer Discretionary,Leisure Products,Consumer Durables & Apparel,365.6 M,2022,-,NA,0.9x,0.9x,1.1x,1.1x,0.9x,0.9x,1.3x,1.3x,1.2x,1.2x,1.4x
+10,Hang Lung Group Limited,Real Estate,Real Estate Management & Development,Real Estate,2.39 B,2022,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.2x,0.2x,0.3x,0.3x,0.1x,0.1x,0.1x
+1719,China Infrastructure & Logistics Group Ltd.,Industrials,Transportation Infrastructure,Transportation,219.8 M,2022,0.4x,0.4x,0.6x,0.6x,0.3x,0.3x,0.4x,0.4x,0.3x,0.3x,0.4x,0.4x,0.5x
+580,Sun.King Technology Group Limited,Industrials,Electrical Equipment,Capital Goods,378 M,2022,3.7x,3.7x,3.3x,3.3x,3.5x,3.5x,2.4x,2.4x,2.5x,2.5x,2.0x,2.0x,2.1x
+1091,South Manganese Investment Limited,Materials,Metals & Mining,Materials,231.5 M,2022,0.4x,0.4x,0.4x,0.4x,0.4x,0.4x,0.6x,0.6x,0.7x,0.7x,0.6x,0.6x,0.7x
+1383,LET Group Holdings Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,160.8 M,2022,0.7x,0.7x,0.8x,0.8x,1.3x,1.3x,1.3x,1.3x,0.5x,0.5x,0.1x,0.1x,0.0x
+505,Xingye Alloy Materials Group Limited,Industrials,Electrical Equipment,Capital Goods,113.8 M,2022,0.5x,0.5x,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.5x,0.5x,0.4x,0.4x,0.4x
+439,KuangChi Science Limited,Industrials,Aerospace & Defense,Capital Goods,130.2 M,2022,2.0x,2.0x,2.2x,2.2x,0.6x,0.6x,0.7x,0.7x,0.9x,0.9x,0.9x,0.9x,1.3x
+2299,Billion Industrial Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,1.015 B,2022,-,NA,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x
+776,Imperium Technology Group Limited,Consumer Discretionary,Household Durables,Consumer Durables & Apparel,177.9 M,2022,0.4x,0.4x,0.3x,0.3x,0.8x,0.8x,0.4x,0.4x,0.6x,0.6x,0.8x,0.8x,0.8x
+1692,Town Ray Holdings Limited,Consumer Discretionary,Household Durables,Consumer Durables & Apparel,146.3 M,2022,1.2x,1.2x,0.9x,0.9x,1.1x,1.1x,1.2x,1.2x,1.9x,1.9x,2.1x,2.1x,2.1x
+2169,Canggang Railway Limited,Industrials,Road & Rail,Transportation,328.7 M,2022,-,NA,1.3x,1.3x,1.0x,1.0x,1.8x,1.8x,1.5x,1.5x,NA,NA,NA
+2096,Simcere Pharmaceutical Group Limited,Healthcare,Pharmaceuticals,"Pharmaceuticals, Biotechnology & Life Sciences",2.942 B,2022,1.6x,1.6x,1.5x,1.5x,1.3x,1.3x,1.5x,1.5x,0.6x,0.6x,0.7x,0.7x,NA
+1463,C-Link Squared Limited,Industrials,Professional Services,Commercial & Professional Services,431.1 M,2022,4.5x,4.5x,4.7x,4.7x,6.8x,6.8x,5.8x,5.8x,6.3x,6.3x,6.4x,NA,NA
+1332,Touyun Biotech Group Limited,Materials,Containers & Packaging,Materials,246.6 M,2022,0.3x,0.3x,0.3x,0.3x,0.6x,0.6x,0.8x,0.8x,1.3x,1.3x,0.8x,0.8x,0.7x
+1876,Budweiser Brewing Company APAC Limited,Consumer Staples,Beverages,"Food, Beverage & Tobacco",40.082 B,2022,0.7x,NA,0.6x,NA,0.5x,NA,0.4x,NA,0.4x,NA,0.4x,NA,0.3x
+9906,Honliv Healthcare Management Group Company Limited,Healthcare,Healthcare Providers & Services,Healthcare Equipment & Services,183.4 M,2022,0.9x,0.9x,0.8x,0.8x,0.8x,0.8x,0.7x,0.7x,0.3x,0.3x,0.3x,0.3x,NA
+9908,"JiaXing Gas Group Co., Ltd.",Utilities,Gas Utilities,Utilities,174.5 M,2022,1.1x,1.1x,1.1x,1.1x,1.3x,1.3x,1.4x,1.4x,0.6x,0.6x,0.3x,0.3x,NA
+9986,Dashan Education Holdings Limited,Consumer Discretionary,Diversified Consumer Services,Consumer Services,318 M,2022,9.9x,9.9x,4.0x,4.0x,1.5x,1.5x,1.7x,1.7x,0.9x,0.9x,1.0x,1.0x,NA
+6805,Kimou Environmental Holding Limited,Industrials,Commercial Services & Supplies,Commercial & Professional Services,130.2 M,2022,0.3x,0.3x,0.2x,0.2x,0.2x,0.2x,0.3x,0.3x,0.2x,0.2x,0.2x,0.2x,0.2x
+1817,Mulsanne Group Holding Limited,Consumer Discretionary,Specialty Retail,Retailing,303.8 M,2022,0.4x,0.4x,0.5x,0.5x,0.9x,0.9x,1.0x,1.0x,1.2x,1.2x,1.1x,1.1x,0.9x
+1697,"Shandong International Trust Co., Ltd.",Financials,Capital Markets,Diversified Financials,231.5 M,2022,1.3x,1.3x,1.7x,1.7x,1.6x,1.6x,1.7x,1.7x,4.6x,4.6x,4.5x,4.5x,3.4x
+1748,Xin Yuan Enterprises Group Limited,Industrials,Marine,Transportation,144.1 M,2022,0.6x,0.6x,0.1x,0.1x,0.3x,0.3x,0.3x,0.3x,0.4x,0.4x,0.1x,0.1x,0.9x
+1034,Fullwealth International Group Holdings Limited,Industrials,Construction & Engineering,Capital Goods,201.8 M,2022,1.5x,1.5x,2.4x,2.4x,2.0x,2.0x,1.7x,1.7x,1.9x,1.9x,2.3x,2.3x,2.2x
+1741,Ri Ying Holdings Limited,Industrials,Construction & Engineering,Capital Goods,136.6 M,2022,0.8x,0.8x,1.1x,1.1x,1.3x,1.3x,2.6x,2.6x,4.6x,4.6x,4.6x,4.6x,2.8x
+1745,Lvji Technology Holdings Inc.,Information Technology,Software,Software & Services,127.2 M,2022,4.5x,4.5x,4.6x,4.6x,5.6x,5.6x,7.0x,7.0x,9.9x,9.9x,11.3x,11.3x,2.2x
+1084,Green Future Food Hydrocolloid Marine Science Company Limited,Materials,Chemicals,Materials,134.6 M,2022,0.4x,0.4x,0.4x,0.4x,0.4x,0.4x,0.5x,0.5x,0.7x,0.7x,0.9x,0.9x,NA
+1853,Jilin Province Chuncheng Heating Company Limited,Utilities,Water Utilities,Utilities,115.9 M,2022,0.6x,0.6x,0.6x,0.6x,0.7x,0.7x,0.6x,0.6x,1.8x,1.8x,0.6x,0.6x,NA
+1967,Confidence Intelligence Holdings Limited,Information Technology,"Electronic Equipment, Instruments & Components",Technology Hardware & Equipment,738.9 M,2022,3.1x,3.1x,2.5x,2.5x,1.7x,1.7x,2.5x,2.5x,5.1x,5.1x,3.5x,3.5x,NA
+3886,Town Health International Medical Group Limited,Healthcare,Healthcare Providers & Services,Healthcare Equipment & Services,280.4 M,2022,5.3x,5.3x,5.5x,5.5x,5.5x,5.5x,5.8x,5.8x,6.3x,6.3x,6.1x,6.1x,6.1x
+1921,Dalipal Holdings Limited,Energy,Energy Equipment & Services,Energy,421.9 M,2022,0.8x,0.8x,0.8x,0.8x,0.8x,0.8x,0.6x,0.6x,0.6x,0.6x,0.9x,0.9x,0.9x
+1442,Infinity Logistics and Transport Ventures Limited,Industrials,Air Freight & Logistics,Transportation,297.1 M,2022,1.2x,1.2x,1.6x,1.6x,2.8x,2.8x,2.3x,2.3x,2.3x,2.3x,0.9x,0.9x,1.0x
+6928,TOMO Holdings Limited,Consumer Discretionary,Auto Components,Automobiles & Components,165.7 M,2022,22.4x,22.4x,32.8x,32.8x,14.0x,14.0x,18.1x,18.1x,14.9x,14.9x,9.3x,NA,8.7x
+9936,Ximei Resources Holding Limited,Materials,Metals & Mining,Materials,176.6 M,2022,0.5x,0.5x,0.7x,0.7x,1.3x,1.3x,1.1x,1.1x,1.5x,1.5x,1.4x,1.4x,NA
+1961,Infinities Technology International (Cayman) Holding Limited,Communication Services,Entertainment,Media,124.5 M,2022,1.8x,1.8x,2.1x,2.1x,3.9x,3.9x,4.4x,4.4x,3.9x,3.9x,2.3x,NA,NA
+3991,Changhong Jiahua Holdings Limited,Information Technology,"Electronic Equipment, Instruments & Components",Technology Hardware & Equipment,193.2 M,2022,0.6x,0.6x,0.5x,0.5x,0.7x,0.7x,0.5x,0.5x,0.7x,0.7x,0.6x,NA,0.7x
+6968,Ganglong China Property Group Limited,Real Estate,Real Estate Management & Development,Real Estate,107.4 M,2022,0.0x,0.0x,0.1x,0.1x,0.2x,0.2x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,NA
+846,Mingfa Group (International) Company Limited,Real Estate,Real Estate Management & Development,Real Estate,291.1 M,2022,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x
+1795,Yadong Group Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,203.3 M,2022,0.9x,0.9x,0.7x,0.7x,0.9x,0.9x,1.1x,1.1x,NA,NA,NA,NA,NA
+1855,ZONBONG LANDSCAPE Environmental Limited,Industrials,Commercial Services & Supplies,Commercial & Professional Services,316 M,2022,1.1x,1.1x,1.1x,1.1x,1.1x,1.1x,1.1x,1.1x,1.0x,1.0x,1.0x,1.0x,NA
+9600,Newlink Technology Inc.,Information Technology,IT Services,Software & Services,198.4 M,2022,22.3x,22.3x,24.2x,24.2x,29.2x,29.2x,4.1x,4.1x,16.1x,16.1x,3.3x,3.3x,NA
+2231,JY Grandmark Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,251.7 M,2022,0.1x,0.1x,0.2x,0.2x,0.4x,0.4x,0.4x,0.4x,0.2x,0.2x,0.2x,0.2x,0.1x
+672,Zhong An Group Limited,Real Estate,Real Estate Management & Development,Real Estate,167.3 M,2022,0.1x,0.1x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.3x,0.3x,0.1x,0.1x,0.2x
+1400,Moody Technology Holdings Limited,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,162.3 M,2022,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.0x,0.1x
+1821,ESR Group Limited,Real Estate,Real Estate Management & Development,Real Estate,7.664 B,2022,2.0x,2.0x,1.2x,1.2x,1.1x,1.1x,0.8x,0.8x,1.6x,1.6x,1.2x,1.2x,2.0x
+1691,JS Global Lifestyle Company Limited,Consumer Discretionary,Household Durables,Consumer Durables & Apparel,3.46 B,2022,0.9x,0.9x,1.2x,1.2x,1.0x,1.0x,1.3x,1.3x,1.2x,1.2x,1.3x,1.3x,0.7x
+6908,HG Semiconductor Limited,Information Technology,Semiconductors & Semiconductor Equipment,Semiconductors & Semiconductor Equipment,131.1 M,2022,3.6x,3.6x,6.1x,6.1x,1.6x,1.6x,2.6x,2.6x,4.0x,4.0x,2.2x,NA,3.3x
+1597,China Nature Energy Technology Holdings Limited,Industrials,Electrical Equipment,Capital Goods,111.1 M,2022,1.4x,1.4x,1.3x,1.3x,1.5x,1.5x,1.3x,1.3x,NA,NA,NA,NA,NA
+9677,"Weihai City Commercial Bank Co., Ltd.",Financials,Banks,Banks,2.346 B,2022,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.2x,0.1x,0.2x,0.2x,NA
+2215,Dexin Services Group Limited,Real Estate,Real Estate Management & Development,Real Estate,333.9 M,2022,2.6x,2.6x,2.0x,2.0x,1.2x,1.2x,1.1x,1.1x,NA,NA,NA,NA,NA
+2207,"Ronshine Service Holding Co., Ltd",Real Estate,Real Estate Management & Development,Real Estate,271.9 M,2022,2.2x,2.2x,2.3x,2.3x,1.2x,1.2x,1.0x,1.0x,NA,NA,NA,NA,NA
+2187,Zhixin Group Holding Limited,Materials,Construction Materials,Materials,414.5 M,2022,0.9x,0.9x,1.0x,1.0x,1.4x,1.4x,1.0x,1.0x,NA,NA,NA,NA,NA
+2142,HBM Holdings Limited,Healthcare,Biotechnology,"Pharmaceuticals, Biotechnology & Life Sciences",208.2 M,2022,3.6x,3.6x,5.3x,5.3x,16.3x,16.3x,14.0x,14.0x,8.9x,8.9x,2.0x,2.0x,NA
+2285,Chervon Holdings Limited,Consumer Discretionary,Household Durables,Consumer Durables & Apparel,2.243 B,2022,1.0x,1.0x,0.8x,0.8x,0.6x,0.6x,0.6x,0.6x,NA,NA,NA,NA,NA
+2257,Sirnaomics Ltd.,Healthcare,Biotechnology,"Pharmaceuticals, Biotechnology & Life Sciences",627.2 M,2022,11.3x,11.3x,13.1x,NA,NA,NA,1.1x,NA,NA,NA,NA,NA,NA
+2216,Broncus Holding Corporation,Healthcare,Healthcare Equipment & Supplies,Healthcare Equipment & Services,104.7 M,2022,44.6x,44.6x,26.0x,26.0x,5.3x,5.3x,1.5x,1.5x,NA,NA,NA,NA,NA
+2276,"Shanghai Conant Optical Co., Ltd.",Healthcare,Healthcare Equipment & Supplies,Healthcare Equipment & Services,256.5 M,2022,1.7x,1.7x,1.8x,1.8x,1.8x,1.8x,NA,NA,NA,NA,NA,NA,NA
+6913,South China Vocational Education Group Company Limited,Consumer Discretionary,Diversified Consumer Services,Consumer Services,244.7 M,2022,1.5x,1.5x,1.5x,1.5x,0.6x,0.6x,0.6x,0.6x,NA,NA,NA,NA,NA
+2148,"Vesync Co., Ltd",Consumer Discretionary,Household Durables,Consumer Durables & Apparel,505.2 M,2022,1.6x,1.6x,1.8x,1.8x,2.2x,2.2x,2.4x,2.4x,0.8x,0.8x,0.5x,0.5x,NA
+1440,Deyun Holding Ltd.,Consumer Discretionary,"Textiles, Apparel & Luxury Goods",Consumer Durables & Apparel,215.1 M,2022,5.4x,5.4x,4.8x,4.8x,4.8x,4.8x,1.7x,1.7x,1.9x,1.9x,1.3x,1.3x,NA
+2146,"Roiserv Lifestyle Services Co., Ltd.",Real Estate,Real Estate Management & Development,Real Estate,100.6 M,2022,1.7x,1.7x,1.8x,1.8x,1.9x,1.9x,1.3x,1.3x,1.3x,1.3x,0.5x,0.5x,NA
+2306,YH Entertainment Group,Communication Services,Entertainment,Media,513.1 M,2022,1.8x,NA,NA,NA,1.4x,NA,NA,NA,NA,NA,NA,NA,NA
+2237,China Graphite Group Limited,Materials,Metals & Mining,Materials,262.9 M,2022,-,NA,1.2x,1.2x,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1370_OLD,Aowei Holding Limited,Materials,Metals & Mining,Materials,160.4 M,2022,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.1x,0.1x,0.6x,0.6x,0.6x,0.6x,0.8x
+2459,Sanergy Group Limited,Industrials,Electrical Equipment,Capital Goods,222.9 M,2022,0.7x,0.7x,0.6x,0.6x,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6610,Flowing Cloud Technology Ltd,Communication Services,Media,Media,650.2 M,2022,-,NA,NA,2.2x,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2482,"Logory Logistics Technology Co., Ltd.",Industrials,Road & Rail,Transportation,493.6 M,2022,-,NA,NA,0.4x,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2425,AustAsia Group Ltd.,Consumer Staples,Food Products,"Food, Beverage & Tobacco",312.3 M,2022,0.3x,0.3x,0.4x,0.4x,0.3x,0.3x,NA,NA,NA,NA,NA,NA,NA
+1370,Aowei Holding Limited,Materials,Metals & Mining,Materials,160.4 M,2022,0.2x,0.2x,0.2x,0.2x,0.2x,0.2x,0.1x,0.1x,0.6x,0.6x,0.6x,0.6x,0.8x
+2118,Tian Shan Development (Holding) Limited,Real Estate,Real Estate Management & Development,Real Estate,252.4 M,-,-,NA,0.1x,0.1x,0.1x,0.1x,0.2x,0.2x,0.1x,0.1x,0.2x,0.2x,0.1x
+1885,China Wood Optimization (Holding) Limited,Materials,Paper & Forest Products,Materials,114.7 M,-,-,1.0x,3.2x,3.2x,4.6x,4.6x,3.7x,3.7x,3.2x,3.2x,4.3x,4.3x,1.9x
+2341,EcoGreen International Group Limited,Materials,Chemicals,Materials,187.6 M,-,-,1.4x,1.6x,1.6x,2.0x,2.0x,1.6x,1.6x,1.4x,1.4x,1.7x,1.7x,1.9x
+530,Goldin Financial Holdings Limited,Consumer Staples,Beverages,"Food, Beverage & Tobacco",131.8 M,-,-,1.4x,1.4x,1.4x,0.2x,0.2x,0.3x,0.3x,0.6x,0.6x,0.2x,0.2x,0.3x
+708,China Evergrande New Energy Vehicle Group Limited,Healthcare,Healthcare Providers & Services,Healthcare Equipment & Services,4.421 B,-,-,NA,0.1x,0.1x,0.1x,0.1x,0.2x,0.2x,0.2x,0.2x,0.7x,0.7x,0.2x
+1777,"Fantasia Holdings Group Co., Limited",Real Estate,Real Estate Management & Development,Real Estate,147.1 M,-,-,NA,0.6x,0.6x,0.5x,0.5x,0.6x,0.6x,0.5x,0.5x,0.7x,0.7x,0.7x
+30,Ban Loong Holdings Limited,Consumer Staples,Food & Staples Retailing,Food & Staples Retailing,215.7 M,-,-,NA,2.5x,2.5x,2.6x,2.6x,0.4x,0.4x,0.2x,0.2x,0.2x,0.2x,1.5x
+680,Nan Hai Corporation Limited,Communication Services,Entertainment,Media,306.1 M,-,-,NA,0.1x,0.1x,0.2x,0.2x,0.3x,0.3x,0.1x,0.1x,0.2x,0.2x,0.2x
+2183,Sansheng Holdings (Group) Co. Ltd.,Real Estate,Real Estate Management & Development,Real Estate,248.7 M,-,-,0.1x,0.2x,0.2x,0.2x,0.2x,0.1x,0.1x,0.1x,0.1x,0.1x,0.1x,0.0x
+678,Genting Hong Kong Limited,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,448.5 M,-,-,NA,0.3x,0.3x,0.1x,0.1x,0.5x,0.5x,0.7x,0.7x,0.7x,0.7x,1.0x
+2608,Sunshine 100 China Holdings Ltd,Real Estate,Real Estate Management & Development,Real Estate,120.2 M,-,-,NA,0.3x,0.3x,0.2x,0.2x,0.3x,0.3x,0.2x,0.2x,0.5x,0.5x,0.1x
+1909,Fire Rock Holdings Limited,Communication Services,Entertainment,Media,273.9 M,-,-,NA,2.5x,2.5x,17.9x,17.9x,26.7x,26.7x,20.4x,20.4x,6.4x,NA,16.5x
+2296,Huarchi Global Group Holdings Limited,Industrials,Construction & Engineering,Capital Goods,270.1 M,-,-,NA,1.7x,1.7x,2.4x,2.4x,2.7x,2.7x,2.3x,2.3x,NA,NA,NA
+2175,China General Education Group Limited,Consumer Discretionary,Diversified Consumer Services,Consumer Services,200.3 M,-,-,NA,4.3x,4.3x,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7827,Vision Deal HK Acquisition Corp.,Financials,Capital Markets,Diversified Financials,157.8 M,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+2297,Rainmed Medical Limited,Healthcare,Healthcare Equipment & Supplies,Healthcare Equipment & Services,169.6 M,-,-,NA,12.7x,12.7x,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2421,KRP Development Holdings Limited,Real Estate,Real Estate Management & Development,Real Estate,102.4 M,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+9636,JF Wealth Holdings Ltd,Consumer Discretionary,Diversified Consumer Services,Consumer Services,980.2 M,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6922,"Cryofocus Medtech (Shanghai) Co., Ltd.",Healthcare,Healthcare Equipment & Supplies,Healthcare Equipment & Services,561.1 M,-,-,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9658,Super Hi International Holding Ltd.,Consumer Discretionary,"Hotels, Restaurants & Leisure",Consumer Services,1.537 B,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+7855,TechStar Acquisition Corporation,Financials,Capital Markets,Diversified Financials,159.2 M,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+1244,3D Medicines Inc.,Healthcare,Biotechnology,"Pharmaceuticals, Biotechnology & Life Sciences",2.251 B,-,-,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

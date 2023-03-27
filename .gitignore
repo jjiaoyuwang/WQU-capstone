@@ -131,5 +131,6 @@ dmypy.json
 .pyre/
 
 # Project specific
-data/
-reports/
+data/old_obsolete/
+data/raw_unprocessed/
+
