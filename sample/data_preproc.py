@@ -199,7 +199,10 @@ class FRatioMLdata:
         for ticker in tickers:
             df = pd.concat([df,ticker_to_fratio_frame(ticker,self.fratios_df_filtered, get_returns(self.returns_df),self.returns_shift)])
         
+        # remove NaNs, infinities
+        df = df[~df.isin([np.nan, np.inf, -np.inf]).any(axis=1)]
         self.train = df.dropna()
+
         return df
         
 
