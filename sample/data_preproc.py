@@ -209,5 +209,8 @@ class FRatioMLdata:
     def shuffle(self,random_state):
         '''
         Apply sklearn shuffle to rows
+
+        from sklearn.utils import shuffle
+        df = shuffle(df)
         '''
         pass
