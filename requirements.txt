@@ -16,3 +16,4 @@ sklearn
 scikit-learn
 yfinance
 openpyxl
+tensorflow
