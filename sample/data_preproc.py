@@ -206,11 +206,8 @@ class FRatioMLdata:
         return df
         
 
-    def shuffle(self,random_state):
+    def shuffle(self,random_state=0):
         '''
-        Apply sklearn shuffle to rows
-
-        from sklearn.utils import shuffle
-        df = shuffle(df)
+        Apply sklearn shuffle to rows. Default random_state to 0
         '''
-        pass
+        self.train = shuffle(self.train,random_state=random_state)
