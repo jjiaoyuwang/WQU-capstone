@@ -12,7 +12,6 @@ pandasdmx
 matplotlib
 statsmodels
 seaborn
-sklearn
 scikit-learn
 yfinance
 openpyxl
