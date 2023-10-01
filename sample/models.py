@@ -119,7 +119,7 @@ def SVR_run(X_train, X_test, y_train, y_test):
     svr_cv = GridSearchCV(estimator=svm.SVR(), param_grid=grid,cv=5,n_jobs=4)
     svr_cv.fit(X_train, np.ravel(y_train))
 
-    svr = svm.SVR(kernel=svr_cv.best_params_['kernel'],C=svr_cv.best_params_['C'],epsilon=svr_cv.best_params_['epsilon']).fit(X_train,y_train)
+    svr = svm.SVR(kernel=svr_cv.best_params_['kernel'],C=svr_cv.best_params_['C'],epsilon=svr_cv.best_params_['epsilon']).fit(X_train,np.ravel(y_train))
 
     y_pred_scaled = svr.predict(X_test)
     y_pred = y_pred_scaled#data_scaler_y.inverse_transform(y_pred_scaled.reshape(-1,1))
@@ -201,7 +201,7 @@ def BR_run(X_train, X_test, y_train, y_test):
                                    max_samples=br_cv.best_params_['max_samples'],\
                                    max_features=br_cv.best_params_['max_features'],\
                                    bootstrap=br_cv.best_params_['bootstrap'],\
-                                   bootstrap_features=br_cv.best_params_['bootstrap_features']).fit(X_train,y_train)
+                                   bootstrap_features=br_cv.best_params_['bootstrap_features']).fit(X_train,np.ravel(y_train))
 
     y_pred_scaled = br.predict(X_test)
     y_pred = y_pred_scaled#data_scaler_y.inverse_transform(y_pred_scaled.reshape(-1,1))
