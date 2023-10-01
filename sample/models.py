@@ -16,7 +16,6 @@ from sklearn import linear_model
 
 from sklearn import tree
 from sklearn.multioutput import RegressorChain
-from sklearn.ensemble import GradientBoostingRegressor
 from sklearn import svm
 from sklearn import ensemble
 
@@ -291,6 +290,47 @@ def ABR_run(X_train, X_test, y_train, y_test):
     metrics.insert(0,R2_train)
 
     return abr_cv, metrics, y_pred, abr
+
+def XGB_run(X_train, X_test, y_train, y_test):
+    '''
+    Fit Gradient Boosting Regressor using decision trees as the estimator to training data and perform 5-fold CV (grid search). Return:
+    [0] - model_cv as an object
+    [1] - metrics [R2_train, R2_test, MAE, MSE, MAPE]
+    [2] - predicted values on test set y_test
+    [3] - model as an object
+    '''
+
+    grid = { 
+        #'loss': ['squared_error','absolute_error','huber'],
+        'learning_rate': list(np.logspace(-1, 1, 3)),
+        'n_estimators': list(np.arange(1,201,25)), # same for 
+        #'criterion': ['squared_error','friedman_mse'], # most of these parameters are the same as for decision tree regressor
+        'max_depth': [1,3,5,7, None],
+        'max_features': ['sqrt', 'log2',None]
+    }
+
+    xgb_cv = GridSearchCV(estimator=ensemble.GradientBoostingRegressor(), param_grid=grid,cv=5,n_jobs=4)
+    xgb_cv.fit(X_train, np.ravel(y_train))
+
+    xgb = ensemble.GradientBoostingRegressor(learning_rate=xgb_cv.best_params_['learning_rate'],\
+                                             n_estimators=xgb_cv.best_params_['n_estimators'],\
+                                             #criterion=xgb_cv.best_params_['criterion'],\
+                                             #loss=xgb_cv.best_params_['loss'],\
+                                             max_depth=xgb_cv.best_params_['max_depth'],\
+                                             max_features=xgb_cv.best_params_['max_features']).fit(X_train,np.ravel(y_train))
+
+    y_pred_scaled = xgb.predict(X_test)
+    y_pred = y_pred_scaled#data_scaler_y.inverse_transform(y_pred_scaled.reshape(-1,1))
+
+    # R^2 train error
+    R2_train = xgb.score(X_train, y_train)
+
+    print(f'R^2 error (train): {np.round(R2_train,5)}')
+
+    metrics = ML_routines.return_regress_metrics(y_test,y_pred)
+    metrics.insert(0,R2_train)
+
+    return xgb_cv, metrics, y_pred, xgb
 
 def SVC_run(X_train, X_test, y_train, y_test):
     '''
