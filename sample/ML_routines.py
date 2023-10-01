@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
@@ -167,4 +168,42 @@ def from_models_return_diebold_mariano(models_dict,y_test):
     df.index = labels
     df.columns = labels
     return df
+
+def return_models_not_in_folder(list_of_desired_models,path_to_models,index=None):
+    '''
+    Rather than training models each time they're needed, check that their pickle obj exists. If so, load that instead. Otherwise, print out the non-existent model. 
+    
+    Inputs
+    list_of_desired_models - List containing names of models (str) without .pickle file extension
+    path_to_models - Relative path (str) to folder containing the model pickle files
+    Index - select a particular index (int) of the pickle object. Default is None (load the whole pickle object). Reason behind this is that 
+            the pickle object contains model, y_test, metrics and cross validation scores so this option allows the user to select what they're after.
+            As of 01/11/23, index values for the models implemented:
+            [0] - model_cv (contains best cross validation parameters), 
+            [1] - metrics, 
+            [2] - y_pred, 
+            [3] - model
+
+    Outputs
+    model_dict - dictionary containing pickle object (or index thereof), indexed by model name
+    '''
+    
+    dict = {}
+
+    list_of_available_models = [file for file in os.listdir(path_to_models)]
+    print("Missing models:\n")
+
+    for elem in list_of_desired_models:
+        # print out the name of the model not in the model folder
+        if elem+'.pickle' not in list_of_available_models:
+            print(elem) 
+        else:
+            with open(path_to_models+'/'+elem+'.pickle','rb') as f:
+                # load the whole object if no index specified
+                if index is None:
+                    dict[elem] = pickle.load(f)
+                # load a particular slice of the pickle object if index is given
+                else:
+                    dict[elem] = pickle.load(f)[index]
+    return dict
 
