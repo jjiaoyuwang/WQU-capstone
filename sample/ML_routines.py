@@ -6,7 +6,6 @@ import statsmodels.api as sm
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-from sklearn.utils import shuffle
 
 # metrics - classification
 from sklearn.metrics import PredictionErrorDisplay, accuracy_score, f1_score, precision_score, roc_auc_score
