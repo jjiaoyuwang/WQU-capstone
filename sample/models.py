@@ -257,6 +257,41 @@ def RFR_run(X_train, X_test, y_train, y_test):
 
     return rfr_cv, metrics, y_pred, rfr
 
+def ABR_run(X_train, X_test, y_train, y_test):
+    '''
+    Fit Ada Boost Regressor using decision trees as the estimator to training data and perform 5-fold CV (grid search). Return:
+    [0] - model_cv as an object
+    [1] - metrics [R2_train, R2_test, MAE, MSE, MAPE]
+    [2] - predicted values on test set y_test
+    [3] - model as an object
+    '''
+
+    grid = {
+        'estimator': [None], # None = DecisionTreeRegressor with max_depth=3
+        'n_estimators': list(np.arange(1,201,20)),
+        'learning_rate': list(np.arange(0,200,20))
+    }
+
+    abr_cv = GridSearchCV(estimator=ensemble.AdaBoostRegressor(), param_grid=grid,cv=5,n_jobs=4)
+    abr_cv.fit(X_train, np.ravel(y_train))
+
+    abr = ensemble.AdaBoostRegressor(estimator=abr_cv.best_params_['estimator'],\
+                                     n_estimators=abr_cv.best_params_['n_estimators'],\
+                                     learning_rate=abr_cv.best_params_['learning_rate']).fit(X_train,np.ravel(y_train))
+
+    y_pred_scaled = abr.predict(X_test)
+    y_pred = y_pred_scaled#data_scaler_y.inverse_transform(y_pred_scaled.reshape(-1,1))
+
+    # R^2 train error
+    R2_train = abr.score(X_train, y_train)
+
+    print(f'R^2 error (train): {np.round(R2_train,5)}')
+
+    metrics = ML_routines.return_regress_metrics(y_test,y_pred)
+    metrics.insert(0,R2_train)
+
+    return abr_cv, metrics, y_pred, abr
+
 def SVC_run(X_train, X_test, y_train, y_test):
     '''
     Fit SVC to training data and perform 5-fold CV (grid search). Return:

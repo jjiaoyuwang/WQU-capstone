@@ -2,10 +2,16 @@ import os
 import sys
 import pandas as pd
 import numpy as np
+from sklearn.utils import shuffle
 
 # IMPORT FUNCTIONS
+# insert the following line if you need to import from outside of sample/
+# sys.path.insert(0, '../sample')
 
 import data_preproc
+import ML_routines
+import models
+
 
 # LOAD FINANCIAL RATIOS AND ASSET PRICES
 test_merge = pd.read_excel('../jupyter-notebooks/test_manual.xlsx')
@@ -26,18 +32,12 @@ asset_prices = asset_prices.resample('Q').last()
 asset_prices = asset_prices.bfill(axis=1)
 asset_prices = asset_prices.ffill(axis=1)
 
-
 # 
 test = data_preproc.FRatioMLdata(ML_final,asset_prices,sector=None,returns_lead_by=-1)
+
+# transform the data into ML compatible format
 test.transform()
-print(test.train.head())
-#print(type(test.transform().head()))
 
-#def main():
-#    '''
-#    Main code to execute.
-#    '''
-#    pass
-
-#if __name__ == 'main':
-#    main() # sys.argv[1]
+# GENERATE REGRESSION AND CLASSIFICATION DATASETS WITH DETERMINISTIC SHUFFLE
+data_rg = shuffle(test.train,random_state=0)
+data_clf = ML_routines.convert_regression_to_classification(data_rg)
