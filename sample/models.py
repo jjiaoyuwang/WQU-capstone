@@ -487,3 +487,81 @@ def BC_run(X_train, X_test, y_train, y_test):
     metrics.insert(0,AS_train)
 
     return bc_cv, metrics, y_pred, bc
+
+def ABC_run(X_train, X_test, y_train, y_test):
+    '''
+    Fit Ada Boost Classifier using decision trees as the estimator to training data and perform 5-fold CV (grid search). Return:
+    [0] - model_cv as an object
+    [1] - metrics [AS_train, AS_test, F1, PS, AUC]
+    [2] - predicted values on test set y_test
+    [3] - model as an object
+    '''
+
+    grid = {
+        'estimator': [None], # None = DecisionTreeRegressor with max_depth=1
+        'n_estimators': list(np.arange(1,201,20)),
+        'learning_rate': list(np.arange(0,200,20)),
+        'algorithm': ['SAMME.R'] # default
+    }
+
+    abc_cv = GridSearchCV(estimator=ensemble.AdaBoostClassifier(), param_grid=grid,cv=5,n_jobs=4)
+    abc_cv.fit(X_train, np.ravel(y_train))
+
+    abc = ensemble.AdaBoostClassifier(estimator=abc_cv.best_params_['estimator'],\
+                                     n_estimators=abc_cv.best_params_['n_estimators'],\
+                                     learning_rate=abc_cv.best_params_['learning_rate'],\
+                                     algorithm=abc_cv.best_params_['algorithm']).fit(X_train,y_train)
+
+    y_pred_scaled = abc.predict(X_test)
+    y_pred = y_pred_scaled#data_scaler_y.inverse_transform(y_pred_scaled.reshape(-1,1))
+
+    # Accuracy score on training set
+    AS_train = abc.score(X_train, y_train)
+
+    print(f'Accuracy Score (train): {np.round(AS_train,5)}')
+
+    metrics = ML_routines.return_class_metrics(y_test,y_pred)
+    metrics.insert(0,AS_train)
+
+    return abc_cv, metrics, y_pred, abc
+
+def XGBC_run(X_train, X_test, y_train, y_test):
+    '''
+    Fit Gradient Boosting Classifier using decision trees as the estimator to training data and perform 5-fold CV (grid search). Return:
+    [0] - model_cv as an object
+    [1] - metrics [AS_train, AS_test, F1, PS, AUC]
+    [2] - predicted values on test set y_test
+    [3] - model as an object
+    '''
+
+    grid = { 
+        #'loss': ['log_loss','exponential'],
+        'learning_rate': list(np.logspace(-1, 1, 3)),
+        'n_estimators': list(np.arange(1,201,25)), # same for 
+        #'criterion': ['squared_error','friedman_mse'], # most of these parameters are the same as for decision tree regressor
+        'max_depth': [1,3,5,7, None],
+        'max_features': ['sqrt', 'log2',None]
+    }
+
+    xgbc_cv = GridSearchCV(estimator=ensemble.GradientBoostingClassifier(), param_grid=grid,cv=5,n_jobs=4)
+    xgbc_cv.fit(X_train, np.ravel(y_train))
+
+    xgbc = ensemble.GradientBoostingClassifier(#loss=xgbc_cv.best_params_['loss'],\
+                                             learning_rate=xgbc_cv.best_params_['learning_rate'],\
+                                             n_estimators=xgbc_cv.best_params_['n_estimators'],\
+                                             # criterion=xgbc_cv.best_params_['criterion'],\
+                                             max_depth=xgbc_cv.best_params_['max_depth'],\
+                                             max_features=xgbc_cv.best_params_['max_features']).fit(X_train,y_train)
+
+    y_pred_scaled = xgbc.predict(X_test)
+    y_pred = y_pred_scaled#data_scaler_y.inverse_transform(y_pred_scaled.reshape(-1,1))
+
+    # Accuracy score on training set
+    AS_train = xgbc.score(X_train, y_train)
+
+    print(f'Accuracy Score (train): {np.round(AS_train,5)}')
+
+    metrics = ML_routines.return_class_metrics(y_test,y_pred)
+    metrics.insert(0,AS_train)
+
+    return xgbc_cv, metrics, y_pred, xgbc
