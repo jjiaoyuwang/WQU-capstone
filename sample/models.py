@@ -12,12 +12,21 @@ from sklearn.model_selection import GridSearchCV
 # baseline models
 from sklearn import linear_model
 
-# models
+# ML - models
 
 from sklearn import tree
 from sklearn.multioutput import RegressorChain
 from sklearn import svm
 from sklearn import ensemble
+
+# NEURAL NETS (MLP)
+import keras
+import tensorflow as tf
+from scikeras.wrappers import KerasClassifier, KerasRegressor
+from sklearn.model_selection import GridSearchCV
+
+# fix random seed for reproducibility in keras models
+tf.random.set_seed(0)
 
 
 # LASSO REGRESSION
@@ -565,3 +574,145 @@ def XGBC_run(X_train, X_test, y_train, y_test):
     metrics.insert(0,AS_train)
 
     return xgbc_cv, metrics, y_pred, xgbc
+
+def MLP_clf(hidden_layers, neurons, dropout,optimizer='adam',activation='relu'):
+    model = keras.models.Sequential()
+
+    # define an input layer with dim 8 (8 financial ratios)
+    model.add(keras.layers.Input(shape=(8,)))
+    
+    for i in range(hidden_layers):
+        model.add(keras.layers.Dense(units=neurons, activation=activation))
+        model.add(keras.layers.Dropout(dropout))
+
+    # for classification problem, the final layer must output a sigmoid
+    model.add(keras.layers.Dense(1, activation="sigmoid"))
+
+    # obsolete, passed the optimiser to get_clf, remove this line going forward
+    # comment out the line below if you're doing CV on the optimizer
+    model.compile(loss="binary_crossentropy", optimizer=optimizer, metrics=['accuracy'])
+    return model
+
+
+def MLP_clf_run(X_train, X_test, y_train, y_test):
+    '''
+    Fit an MLP NN classifier to training data and perform 5-fold CV (grid search). 
+    
+    This is a sequential model from the keras package. scikeras package is used to interface the keras
+    objects with sklearn so that GridSearchCV can be performed. 
+    
+    Return:
+    [0] - model_cv as an object
+    [1] - metrics [AS_train, AS_test, F1, PS, AUC]
+    [2] - predicted values on test set y_test
+    [3] - model as an object
+    '''
+    
+    clf = KerasClassifier(model=MLP_clf,verbose=False,)
+
+    grid = {
+        #'optimizer__learning_rate': [0.05, 0.1], # adam adapts its learning_rate automatically.
+        'model__hidden_layers': [1, 2, 3],
+        'model__neurons': [32],# 64, 128],
+        'model__dropout': [0, 0.5],
+        'model__activation': ['relu','softmax', 'tanh', 'sigmoid', 'linear'],
+        'optimizer': ['Adam'],# 'SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adamax', 'Nadam']
+        #'batch_size': [10,20],#40,60,80,100],
+        #'epochs': [10]#,50,100]
+    }
+
+    NN_cv = GridSearchCV(clf, grid, scoring='accuracy',cv=5, n_jobs=-1, verbose=False)
+    NN_cv.fit(X_train, y_train)
+
+    NN = KerasClassifier(model=MLP_clf,\
+                         activation=NN_cv.best_params_['model__activation'],\
+                         dropout=NN_cv.best_params_['model__dropout'],\
+                         hidden_layers=NN_cv.best_params_['model__hidden_layers'],\
+                         neurons=NN_cv.best_params_['model__neurons'],\
+                         optimizer=NN_cv.best_params_['optimizer'],\
+                         #learning_rate=NN_cv.best_params_['optimizer__learning_rate'],\
+                         verbose=False,).fit(X_train,y_train)
+
+    y_pred_scaled = NN.predict(X_test)
+    y_pred = y_pred_scaled
+
+    # Accuracy score on training set
+    AS_train = NN.score(X_train,y_train)
+
+    print(f'Accuracy Score (train): {np.round(AS_train,5)}')
+
+    metrics = ML_routines.return_class_metrics(y_test,y_pred)
+    metrics.insert(0,AS_train)
+
+    return NN_cv, metrics, y_pred, NN
+
+def MLP_rg(hidden_layers, neurons, dropout,optimizer='adam',activation='relu'):
+    model = keras.models.Sequential()
+
+    # define an input layer with dim 8 (8 financial ratios)
+    model.add(keras.layers.Input(shape=(8,)))
+    
+    for i in range(hidden_layers):
+        model.add(keras.layers.Dense(units=neurons, activation=activation))
+        model.add(keras.layers.Dropout(dropout))
+
+    # for classification problem, the final layer must output a sigmoid
+    model.add(keras.layers.Dense(1))
+
+    model.compile(loss="mse", optimizer=optimizer, metrics=[KerasRegressor.r_squared])
+    return model
+
+
+def MLP_rg_run(X_train, X_test, y_train, y_test):
+    '''
+    Fit an MLP NN regressor to training data and perform 5-fold CV (grid search). 
+    
+    This is a sequential model from the keras package. scikeras package is used to interface the keras
+    objects with sklearn so that GridSearchCV can be performed. 
+    
+    Return:
+    [0] - model_cv as an object
+    [1] - metrics [AS_train, AS_test, F1, PS, AUC]
+    [2] - predicted values on test set y_test
+    [3] - model as an object
+    '''
+    
+    rg = KerasRegressor(model=MLP_rg,verbose=False,)
+
+    grid = {
+        #'optimizer__learning_rate': [0.05, 0.1], # adam adapts its learning_rate automatically.
+        'model__hidden_layers': [1, 2, 3],
+        'model__neurons': [32],# 64, 128],
+        'model__dropout': [0, 0.5],
+        'model__activation': ['relu','softmax', 'tanh', 'sigmoid', 'linear'],
+        'optimizer': ['Adam'],# 'SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adamax', 'Nadam']
+        #'batch_size': [10,20],#40,60,80,100],
+        #'epochs': [10]#,50,100]
+    }
+
+    NN_cv = GridSearchCV(rg, grid,cv=5, n_jobs=-1, verbose=False)
+    NN_cv.fit(X_train, np.ravel(y_train))
+
+    NN = KerasRegressor(model=MLP_rg,\
+                         activation=NN_cv.best_params_['model__activation'],\
+                         dropout=NN_cv.best_params_['model__dropout'],\
+                         hidden_layers=NN_cv.best_params_['model__hidden_layers'],\
+                         neurons=NN_cv.best_params_['model__neurons'],\
+                         optimizer=NN_cv.best_params_['optimizer'],\
+                         #learning_rate=NN_cv.best_params_['optimizer__learning_rate'],\
+                         verbose=False,).fit(X_train,np.ravel(y_train))
+
+    y_pred_scaled = NN.predict(X_test)
+    y_pred = y_pred_scaled
+
+    # Accuracy score on training set
+    R2_train = NN.score(X_train,np.ravel(y_train))
+
+    print(f'R^2 error (train): {np.round(R2_train,5)}')
+
+    metrics = ML_routines.return_regress_metrics(y_test,y_pred)
+    metrics.insert(0,R2_train)
+
+    return NN_cv, metrics, y_pred, NN
+
+    
