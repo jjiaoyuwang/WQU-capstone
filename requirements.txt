@@ -17,3 +17,4 @@ yfinance
 openpyxl
 tensorflow
 dieboldmariano
+scikeras
