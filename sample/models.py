@@ -715,4 +715,59 @@ def MLP_rg_run(X_train, X_test, y_train, y_test):
 
     return NN_cv, metrics, y_pred, NN
 
-    
+
+def run_all_models(path_prefix_to_models='../models/proto/'):
+    '''
+    '''
+
+    # Regression models 
+    test_lasso = lasso_run(X_train, X_test, y_train, y_test)
+    ML_routines.persist_model(test_lasso, path_prefix_to_models+"LASSO.pickle")
+
+    ml_svr = models.SVR_run(X_train, X_test, y_train, y_test)
+    ML_routines.persist_model(ml_svr, path_prefix_to_models+"ml_svr.pickle") 
+
+    ml_dtr = models.DTR_run(X_train, X_test, y_train, y_test)
+    ML_routines.persist_model(ml_dtr, path_prefix_to_models+"ml_dtr.pickle")
+
+    ml_abr = models.ABR_run(X_train, X_test, y_train, y_test)
+    ML_routines.persist_model(ml_abr, path_prefix_to_models+"ml_abr.pickle")
+
+    ml_br = models.BR_run(X_train, X_test, y_train, y_test)
+    ML_routines.persist_model(ml_br, path_prefix_to_models+"ml_br.pickle")
+
+    ml_rfr = RFR_run(X_train, X_test, y_train, y_test)
+    persist_model(ml_rfr, path_prefix_to_models+"ml_rfr.pickle")
+
+    ml_xgb = models.XGB_run(X_train, X_test, y_train, y_test)
+    ML_routines.persist_model(ml_xgb, path_prefix_to_models+"ml_xgb.pickle")
+
+    test_logistic = models.logistic_run(Xclf_train, Xclf_test, yclf_train, yclf_test)
+    ML_routines.persist_model(test_logistic, path_prefix_to_models+"Logistic.pickle")
+
+    ml_svc = models.SVC_run(Xclf_train, Xclf_test, yclf_train, yclf_test)
+    ML_routines.persist_model(ml_svc, path_prefix_to_models+"ml_svc.pickle")
+
+    dl_mlpr = models.MLP_rg_run(X_train, X_test, y_train, y_test)
+    ML_routines.persist_model(dl_mlpr,  path_prefix_to_models+"dl_mlpr.pickle") 
+
+
+    # Classification models
+    ml_dtc = models.DTC_run(Xclf_train, Xclf_test, yclf_train, yclf_test)
+    ML_routines.persist_model(ml_dtc, path_prefix_to_models+"ml_dtc.pickle")
+
+    ml_rfc = models.RFC_run(Xclf_train, Xclf_test, yclf_train, yclf_test)
+    ML_routines.persist_model(ml_rfc, path_prefix_to_models+"ml_rfc.pickle")
+
+    ml_bc = models.BC_run(Xclf_train, Xclf_test, yclf_train, yclf_test)
+    ML_routines.persist_model(ml_bc, path_prefix_to_models+"ml_bc.pickle")
+
+    ml_abc = models.ABC_run(Xclf_train, Xclf_test, yclf_train, yclf_test)
+    ML_routines.persist_model(ml_abc, path_prefix_to_models+"ml_abc.pickle")
+
+    ml_xgbc = models.XGBC_run(Xclf_train, Xclf_test, yclf_train, yclf_test)
+    ML_routines.persist_model(ml_xgbc, path_prefix_to_models+"ml_xgbc.pickle")
+
+    dl_mlpc = models.MLP_clf_run(Xclf_train, Xclf_test, yclf_train, yclf_test)
+    ML_routines.persist_model(dl_mlpc, path_prefix_to_models+"dl_mlpc.pickle")
+
