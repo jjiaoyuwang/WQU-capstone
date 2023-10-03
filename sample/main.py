@@ -179,14 +179,8 @@ if input_response == "Yes":
 else:
     print("Models weren't trained")
 
-sector = 'Real Estate'
-print(gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=-1))    
+# to do: load the pickle files into memory, generate df and export to excel models for each lag. Additionally for regression problems, determine Diebold-Mariano test, although I suspect that this will not be as useful for my problem as it would've been for sequences. 
 
+# train using the existing parameters in models.py. This should be (relatively quick). Then run on an aws ec2 instance with a finer grid for all models. 
 
-sector = 'Industrials'
-print(gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=-1))    
-
-
-sector = 'Consumer Discretionary'
-print(gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=-1))    
-
+# 
