@@ -80,17 +80,97 @@ def train_models():
     Model cv objects, metrics, y_pred and model objects themselves are pickled and saved under model/LAG<lag number>.
     '''
 
+    # Don't filter by sector, with 4 lags this is 4 models
     print("Training models...lag 0")
-    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=None, returns_lead_by=-1)
-
     path_prefix_to_models = "../models/LAG0Q/"
-    models.run_all_models(path_prefix_to_models=path_prefix_to_models)
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=None, returns_lead_by=-1)    
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+    print("Training models...lag 1Q")
+    path_prefix_to_models = "../models/LAG1Q/"  
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=None, returns_lead_by=0)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+    print("Training models...lag 2Q")
+    path_prefix_to_models = "../models/LAG2Q/"
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=None, returns_lead_by=1)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+    print("Training models...lag 4Q")
+    path_prefix_to_models = "../models/LAG4Q/"
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=None, returns_lead_by=3)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
 
 
+    # Filter by sector 3 sectors with 4 lags = 12 models
+    # REAL ESTATE
+    sector = 'Real Estate'
+    print("Real Estate models...lag 0")
+    path_prefix_to_models = "../models/REAL_ESTATE/LAG0Q/"
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=-1)    
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
 
-    # don't filter by sector, with 4 lags this is 4 models
+    print("Real Estate models...lag 1Q")
+    path_prefix_to_models = "../models/REAL_ESTATE/LAG1Q/"  
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=0)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
 
-    # filter by sector 3 sectors with 4 lags = 12 models
+    print("Real Estate models...lag 2Q")
+    path_prefix_to_models = "../models/REAL_ESTATE/LAG2Q/"
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=1)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+    print("Real Estate models...lag 4Q")
+    path_prefix_to_models = "../models/REAL_ESTATE/LAG4Q/"
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=3)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+    # INDUSTRIALS
+    sector = 'Industrials'
+    print("Industrials models...lag 0")
+    path_prefix_to_models = "../models/INDUSTRIALS/LAG0Q/"
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=-1)    
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+    print("Industrials models...lag 1Q")
+    path_prefix_to_models = "../models/INDUSTRIALS/LAG1Q/"  
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=0)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+    print("Industrials models...lag 2Q")
+    path_prefix_to_models = "../models/INDUSTRIALS/LAG2Q/"
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=1)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+    print("Industrials models...lag 4Q")
+    path_prefix_to_models = "../models/INDUSTRIALS/LAG4Q/"
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=3)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+
+    # CONSUMER DISCRETIONARY
+    sector = 'Consumer Discretionary'
+    print("Consumer Discretionary models...lag 0")
+    path_prefix_to_models = "../models/CONSUMER_DISC/LAG0Q/"
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=-1)    
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+    print("Consumer Discretionary models...lag 1Q")
+    path_prefix_to_models = "../models/CONSUMER_DISC/LAG1Q/"  
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=0)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+    print("Consumer Discretionary models...lag 2Q")
+    path_prefix_to_models = "../models/CONSUMER_DISC/LAG2Q/"
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=1)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+    print("Consumer Discretionary models...lag 4Q")
+    path_prefix_to_models = "../models/CONSUMER_DISC/LAG4Q/"
+    X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=3)
+    models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
+
+
 
 
 if input_response == "Yes":
@@ -98,4 +178,15 @@ if input_response == "Yes":
     train_models()
 else:
     print("Models weren't trained")
+
+sector = 'Real Estate'
+print(gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=-1))    
+
+
+sector = 'Industrials'
+print(gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=-1))    
+
+
+sector = 'Consumer Discretionary'
+print(gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=-1))    
 
