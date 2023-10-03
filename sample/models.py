@@ -75,12 +75,12 @@ def logistic_run(X_train, X_test, y_train, y_test):
     '''
     
     grid = [
-        {
-        'penalty': ['l1', 'l2'],
-        'C': list(np.logspace(-2, 3, 6)),
-            'solver':['saga']
+        #{
+        #'penalty': ['l1', 'l2'],
+        #'C': list(np.logspace(-2, 3, 6)),
+        #    'solver':['saga']
         
-    },
+    #},
         {
          'penalty': ['elasticnet'],
             'C': list(np.logspace(-2, 3, 6)),
