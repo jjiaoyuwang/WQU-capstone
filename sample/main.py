@@ -41,3 +41,14 @@ test.transform()
 # GENERATE REGRESSION AND CLASSIFICATION DATASETS WITH DETERMINISTIC SHUFFLE
 data_rg = shuffle(test.train,random_state=0)
 data_clf = ML_routines.convert_regression_to_classification(data_rg)
+
+
+input_response = input("Would you like to train the models, type Yes. Warning: Can take a long time")
+
+def train_models():
+    print("trained")
+
+if input_response == "Yes":
+    train_models()
+else:
+    print("models weren't trained")
