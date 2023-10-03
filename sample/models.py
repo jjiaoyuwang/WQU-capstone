@@ -613,8 +613,8 @@ def MLP_clf_run(X_train, X_test, y_train, y_test):
     grid = {
         #'optimizer__learning_rate': [0.05, 0.1], # adam adapts its learning_rate automatically.
         'model__hidden_layers': [1, 2, 3],
-        'model__neurons': [32],# 64, 128],
-        'model__dropout': [0, 0.5],
+        'model__neurons': [4, 8, 16, 32],
+        'model__dropout': [0, 0.5, 0.9],
         'model__activation': ['relu','softmax', 'tanh', 'sigmoid', 'linear'],
         'optimizer': ['Adam'],# 'SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adamax', 'Nadam']
         #'batch_size': [10,20],#40,60,80,100],
@@ -682,8 +682,8 @@ def MLP_rg_run(X_train, X_test, y_train, y_test):
     grid = {
         #'optimizer__learning_rate': [0.05, 0.1], # adam adapts its learning_rate automatically.
         'model__hidden_layers': [1, 2, 3],
-        'model__neurons': [32],# 64, 128],
-        'model__dropout': [0, 0.5],
+        'model__neurons': [4, 8, 16, 32],
+        'model__dropout': [0, 0.5, 0.9],
         'model__activation': ['relu','softmax', 'tanh', 'sigmoid', 'linear'],
         'optimizer': ['Adam'],# 'SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adamax', 'Nadam']
         #'batch_size': [10,20],#40,60,80,100],
@@ -721,6 +721,7 @@ def run_all_models(X_train, X_test, y_train, y_test,\
     path_prefix_to_models='../models/proto/'):
 
     '''
+    Run all models defined above. 
     '''
 
     # Regression models 
