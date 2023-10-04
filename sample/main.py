@@ -172,14 +172,78 @@ def train_models():
 
 
 
-
 if input_response == "Yes":
     
     train_models()
 else:
     print("Models weren't trained")
 
+# LOAD TRAINED MODELS INTO MEMORY
+rg_models_list = [
+    'LASSO',
+    'ml_svr',
+    'ml_dtr',
+    'ml_abr',
+    'ml_br',
+    'ml_rfr',
+    'ml_xgb',
+    'dl_mlpr',
+]
+
+clf_models_list = [
+    'Logistic',
+    'ml_svc',
+    'ml_dtc',
+    'ml_abc',
+    'ml_bc',
+    'ml_rfc',
+    'ml_xgbc',
+    'dl_mlpc',
+]
+
+dict_of_model_dirs = {
+    'ALLQ0': '../models/LAG0Q',
+    'ALLQ1': '../models/LAG1Q',
+    'ALLQ2': '../models/LAG2Q',
+    'ALLQ4': '../models/LAG4Q',
+    'REQ0': '../models/REAL_ESTATE/LAG0Q',
+    'REQ1': '../models/REAL_ESTATE/LAG1Q',
+    'REQ2': '../models/REAL_ESTATE/LAG2Q',
+    'REQ4': '../models/REAL_ESTATE/LAG4Q',
+    'INDQ0': '../models/INDUSTRIALS/LAG0Q',
+    'INDQ1': '../models/INDUSTRIALS/LAG1Q',
+    'INDQ2': '../models/INDUSTRIALS/LAG2Q',
+    'INDQ4': '../models/INDUSTRIALS/LAG4Q',
+    'CDQ0': '../models/CONSUMER_DISC/LAG0Q',
+    'CDQ1': '../models/CONSUMER_DISC/LAG1Q',
+    'CDQ2': '../models/CONSUMER_DISC/LAG2Q',
+    'CDQ4': '../models/CONSUMER_DISC/LAG4Q',
+}
+
+for dataset in dict_of_model_dirs:
+    print(dict_of_model_dirs[dataset])
+
+    # get regression models
+    rg_metrics_df = ML_routines.return_models_not_in_folder(rg_models_list,dict_of_model_dirs[dataset],1)
+
+    # get classification models
+    clf_metrics_df = ML_routines.return_models_not_in_folder(clf_models_list,dict_of_model_dirs[dataset],1)
+
+    # write the results to disk
+
+    ML_routines.from_models_return_metrics(rg_metrics_df,regression=True).to_excel(dict_of_model_dirs[dataset]+\
+                                                                                   "/rg_summary.xlsx")
+
+    ML_routines.from_models_return_metrics(clf_metrics_df,regression=False).to_excel(dict_of_model_dirs[dataset]+\
+                                                                                   "/clf_summary.xlsx")
+
+
 # to do: load the pickle files into memory, generate df and export to excel models for each lag. Additionally for regression problems, determine Diebold-Mariano test, although I suspect that this will not be as useful for my problem as it would've been for sequences. 
+
+
+# Calculate Diebold-Mariano p-values
+
+#X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=-1)    
 
 # train using the existing parameters in models.py. This should be (relatively quick). Then run on an aws ec2 instance with a finer grid for all models. 
 
