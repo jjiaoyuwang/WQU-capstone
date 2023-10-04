@@ -207,3 +207,31 @@ def return_models_not_in_folder(list_of_desired_models,path_to_models,index=None
                     dict[elem] = pickle.load(f)[index]
     return dict
 
+def filter_sector_lag_from_str(dataset_name, dict_of_model_dirs):
+    '''
+    Given a string (key of dict_of_model_dirs), return the sector 
+    [None, Industrials, Real Estate, Consumer Discretionary] and lag [-1,0,1,3].
+    '''
+
+    for dataset in dict_of_model_dirs:
+        if "IND" in dataset:
+            sector = 'Industrials'
+        elif "RE" in dataset:
+            sector = 'Real Estate'
+        elif "CD" in dataset:
+            sector = 'Consumer Discretionary'
+        else:
+            sector = None
+
+    for dataset in dict_of_model_dirs:
+        suffix = dataset[-2:]
+        if suffix == 'Q0':
+            lag = -1
+        elif suffix == 'Q1':
+            lag = 0
+        elif suffix == 'Q2':
+            lag = 1
+        elif suffix == 'Q4':
+            lag = 2
+    
+    return sector, lag

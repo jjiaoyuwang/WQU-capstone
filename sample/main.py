@@ -32,6 +32,48 @@ asset_prices = asset_prices.resample('Q').last()
 asset_prices = asset_prices.bfill(axis=1)
 asset_prices = asset_prices.ffill(axis=1)
 
+# SPECIFY MODEL NAMES AND PATHS 
+rg_models_list = [
+    'LASSO',
+    'ml_svr',
+    'ml_dtr',
+    'ml_abr',
+    'ml_br',
+    'ml_rfr',
+    'ml_xgb',
+    'dl_mlpr',
+]
+
+clf_models_list = [
+    'Logistic',
+    'ml_svc',
+    'ml_dtc',
+    'ml_abc',
+    'ml_bc',
+    'ml_rfc',
+    'ml_xgbc',
+    'dl_mlpc',
+]
+
+dict_of_model_dirs = {
+    'ALLQ0': '../models/LAG0Q',
+    'ALLQ1': '../models/LAG1Q',
+    'ALLQ2': '../models/LAG2Q',
+    'ALLQ4': '../models/LAG4Q',
+    'REQ0': '../models/REAL_ESTATE/LAG0Q',
+    'REQ1': '../models/REAL_ESTATE/LAG1Q',
+    'REQ2': '../models/REAL_ESTATE/LAG2Q',
+    'REQ4': '../models/REAL_ESTATE/LAG4Q',
+    'INDQ0': '../models/INDUSTRIALS/LAG0Q',
+    'INDQ1': '../models/INDUSTRIALS/LAG1Q',
+    'INDQ2': '../models/INDUSTRIALS/LAG2Q',
+    'INDQ4': '../models/INDUSTRIALS/LAG4Q',
+    'CDQ0': '../models/CONSUMER_DISC/LAG0Q',
+    'CDQ1': '../models/CONSUMER_DISC/LAG1Q',
+    'CDQ2': '../models/CONSUMER_DISC/LAG2Q',
+    'CDQ4': '../models/CONSUMER_DISC/LAG4Q',
+}
+
 # GET TRAINING AND TEST DATA GIVEN SECTOR AND LAG
 def gen_train_test(ML_final, asset_prices, sector=None, returns_lead_by=-1):
     '''
@@ -65,13 +107,87 @@ def gen_train_test(ML_final, asset_prices, sector=None, returns_lead_by=-1):
 
     return X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test
 
+# FUNCTION FOR LOADING MODELS INTO MEMORY FROM DISK
+def get_rg_clf_metrics():
+    '''
+    For each loaded model, export model metrics (either regression or classification) to 
+    disk (models/)
+    '''
+
+    for dataset in dict_of_model_dirs:
+        print(dict_of_model_dirs[dataset])
+
+        # get regression models
+        rg_metrics_df = ML_routines.return_models_not_in_folder(rg_models_list,dict_of_model_dirs[dataset],1)
+
+        # get classification models
+        clf_metrics_df = ML_routines.return_models_not_in_folder(clf_models_list,dict_of_model_dirs[dataset],1)
+
+        # write the results to disk
+
+        ML_routines.from_models_return_metrics(rg_metrics_df,regression=True).to_excel(dict_of_model_dirs[dataset]+\
+                                                                                    "/rg_summary.xlsx")
+
+        ML_routines.from_models_return_metrics(clf_metrics_df,regression=False).to_excel(dict_of_model_dirs[dataset]+\
+                                                                                    "/clf_summary.xlsx")
 
 
+# CALCULATE DIEBOLD-MARIANO P-VALUES
+def filter_sector_lag_from_str(dataset_name, dict_of_model_dirs):
+    '''
+    Given a string (key of dict_of_model_dirs), return the sector 
+    [None, Industrials, Real Estate, Consumer Discretionary] and lag [-1,0,1,3].
+    '''
+
+    for dataset_name in dict_of_model_dirs:
+        if "IND" in dataset:
+            sector = 'Industrials'
+        elif "RE" in dataset:
+            sector = 'Real Estate'
+        elif "CD" in dataset:
+            sector = 'Consumer Discretionary'
+        else:
+            sector = None
+
+    for dataset_name in dict_of_model_dirs:
+        suffix = dataset[-2:]
+        if suffix == 'Q0':
+            lag = -1
+        elif suffix == 'Q1':
+            lag = 0
+        elif suffix == 'Q2':
+            lag = 1
+        elif suffix == 'Q4':
+            lag = 2
+    
+    return sector, lag
+
+def get_diebold_mariano():
+    '''
+    Calculate Diebold-Mariano p-values and output them to disk (models/)
+    '''
+
+    for dataset in dict_of_model_dirs:
+        # print(dict_of_model_dirs[dataset])
+        sector, lag = ML_routines.filter_sector_lag_from_str(dataset, dict_of_model_dirs)
+
+        # for regression models, get y_pred so you can compare it with y_test and calculate Diebold-Mariano p-value
+        rg_dm_df = ML_routines.return_models_not_in_folder(rg_models_list,dict_of_model_dirs[dataset],2)
+
+        # need to get lag, sector
+        X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = \
+        gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=lag)
+        
+        # write the results to disk
+
+        try:
+            ML_routines.from_models_return_diebold_mariano(rg_dm_df,y_test).to_excel(dict_of_model_dirs[dataset]+\
+                                                                                    "/dm_summary.xlsx")
+        except:
+            pass # ignore any exceptions raised in the previous line
 
 
-# TRAINING OR MODELS FROM FILE 
-
-input_response = input('Would you like to train the models, type "Yes" (Warning: Can take a long time). Otherwise press "Enter": ')
+# PERFORM TRAINING OR LOAD MODELS FROM FILE
 
 def train_models():
     '''
@@ -171,6 +287,8 @@ def train_models():
     models.run_all_models(X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test,path_prefix_to_models=path_prefix_to_models)
 
 
+# RUN EVERYTHING
+input_response = input('Would you like to train the models, type "Yes" (Warning: Can take a long time). Otherwise press "Enter": ')
 
 if input_response == "Yes":
     
@@ -178,73 +296,7 @@ if input_response == "Yes":
 else:
     print("Models weren't trained")
 
-# LOAD TRAINED MODELS INTO MEMORY
-rg_models_list = [
-    'LASSO',
-    'ml_svr',
-    'ml_dtr',
-    'ml_abr',
-    'ml_br',
-    'ml_rfr',
-    'ml_xgb',
-    'dl_mlpr',
-]
+# LOAD TRAINED MODELS INTO MEMORY AND OBTAIN METRICS / DIEBOLD-MARIANO P-VALUES
 
-clf_models_list = [
-    'Logistic',
-    'ml_svc',
-    'ml_dtc',
-    'ml_abc',
-    'ml_bc',
-    'ml_rfc',
-    'ml_xgbc',
-    'dl_mlpc',
-]
-
-dict_of_model_dirs = {
-    'ALLQ0': '../models/LAG0Q',
-    'ALLQ1': '../models/LAG1Q',
-    'ALLQ2': '../models/LAG2Q',
-    'ALLQ4': '../models/LAG4Q',
-    'REQ0': '../models/REAL_ESTATE/LAG0Q',
-    'REQ1': '../models/REAL_ESTATE/LAG1Q',
-    'REQ2': '../models/REAL_ESTATE/LAG2Q',
-    'REQ4': '../models/REAL_ESTATE/LAG4Q',
-    'INDQ0': '../models/INDUSTRIALS/LAG0Q',
-    'INDQ1': '../models/INDUSTRIALS/LAG1Q',
-    'INDQ2': '../models/INDUSTRIALS/LAG2Q',
-    'INDQ4': '../models/INDUSTRIALS/LAG4Q',
-    'CDQ0': '../models/CONSUMER_DISC/LAG0Q',
-    'CDQ1': '../models/CONSUMER_DISC/LAG1Q',
-    'CDQ2': '../models/CONSUMER_DISC/LAG2Q',
-    'CDQ4': '../models/CONSUMER_DISC/LAG4Q',
-}
-
-for dataset in dict_of_model_dirs:
-    print(dict_of_model_dirs[dataset])
-
-    # get regression models
-    rg_metrics_df = ML_routines.return_models_not_in_folder(rg_models_list,dict_of_model_dirs[dataset],1)
-
-    # get classification models
-    clf_metrics_df = ML_routines.return_models_not_in_folder(clf_models_list,dict_of_model_dirs[dataset],1)
-
-    # write the results to disk
-
-    ML_routines.from_models_return_metrics(rg_metrics_df,regression=True).to_excel(dict_of_model_dirs[dataset]+\
-                                                                                   "/rg_summary.xlsx")
-
-    ML_routines.from_models_return_metrics(clf_metrics_df,regression=False).to_excel(dict_of_model_dirs[dataset]+\
-                                                                                   "/clf_summary.xlsx")
-
-
-# to do: load the pickle files into memory, generate df and export to excel models for each lag. Additionally for regression problems, determine Diebold-Mariano test, although I suspect that this will not be as useful for my problem as it would've been for sequences. 
-
-
-# Calculate Diebold-Mariano p-values
-
-#X_train, X_test, y_train, y_test, Xclf_train, Xclf_test, yclf_train, yclf_test = gen_train_test(ML_final, asset_prices, sector=sector, returns_lead_by=-1)    
-
-# train using the existing parameters in models.py. This should be (relatively quick). Then run on an aws ec2 instance with a finer grid for all models. 
-
-# 
+get_rg_clf_metrics()
+get_diebold_mariano()
